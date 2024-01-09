@@ -1,2 +1,2 @@
 # Friend-Tutorials
-GitHub Pages to help friends with stuff
+GitHub Pages to help people with stuff
