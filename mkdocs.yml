@@ -2,7 +2,7 @@ site_name: Warframe Model Resources Guides
 theme:
   logo: /assets/015.png
   name: material
-  favicon: /assets/015.png
+  favicon: /assets/smol-loki.png
   features:
     - navigation.instant
     - navigation.instant.progress
