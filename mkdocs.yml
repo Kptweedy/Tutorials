@@ -1,0 +1,58 @@
+site_name: Warframe Model Resources Guides
+theme:
+  logo: /assets/015.png
+  name: material
+  favicon: /assets/015.png
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - toc.follow
+    - search.suggest
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+  language: en
+  palette: 
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: pink
+      accent: red
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: purple
+      accent: deep orange
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Puxtril
+    - icon: fontawesome/brands/github
+      link: https://github.com/Kptweedy
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/Jk3xA2T
+    - icon: simple/mega
+      link: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
