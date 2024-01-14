@@ -8,3 +8,4 @@
 Models: .\Warframe-Exporter.exe –cache-dir C:\<Path-to-Warframe-Cache.Windows> –extract-models
 .\Warframe-Exporter.exe –cache-dir C:\<Path-to-Warframe-Cache.Windows> –extract-textures
 
+!!! 
