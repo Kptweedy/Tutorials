@@ -7,11 +7,11 @@ Ripping from Warframe has changed - the old method of ripping via Ninjaripper no
 
 ### Curated Models
 Curated models are being uploaded to the [MEGA](https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg) archive. Please check there before starting your journey through this guide, as your desired model may already be ripped. 
-For Details on how to use these models are on the [Downloading and using Curated Models](4-how-to-use-pruu-models.md) page.
+For Details on how to use these models are on the [Downloading and using Curated Models](model-usage.md) page.
 
 ### How to extract models
 If your model is not in the curated share, you will need to use Puxtril’s Warframe Exporter to get models/textures.
-This step is detailed on the [Extractor](2-how-to-use-extractor.md) page.
+This step is detailed on the [Extractor](extractor.md) page.
 
 ### Setting Models Up yourself
-If you would rather set the models up yourself you can use the information on the [Setting up models](3-how-to-set-up-models.md) page.
+If you would rather set the models up yourself you can use the information on the [Setting up models](model-setup.md) page.
