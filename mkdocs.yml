@@ -2,7 +2,7 @@ site_name: Warframe Model Resources Guides
 theme:
   logo: assets/icons/transparent-logo.gif #wonder how this affects performance
   name: material
-  favicon: Tutorials/assets/icons/favicon.ico
+  favicon: assets/favicon.png
   icon:
     repo: fontawesome/brands/github
   # custom_dir: overrides
