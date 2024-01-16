@@ -5,7 +5,6 @@ theme:
   favicon: assets/favicon.png
   icon:
     repo: fontawesome/brands/github
-  # custom_dir: overrides
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -27,7 +26,7 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
       primary: pink
-      accent: red
+      accent: deep orange
     - scheme: default
       toggle:
         icon: material/weather-night
@@ -68,3 +67,21 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
+plugins:
+  - search
+  - open-in-new-tab
+
+# Page tree
+nav:
+  - Home: index.md
+  - Warframe Guides: 
+    - wf-guides/introduction.md
+    - How To Use The Extractor: wf-guides/extractor.md
+    - Model Setup Prereqiusites: wf-guides/shader.md
+    - How To Set Up Models: wf-guides/model-setup.md
+    - How To Use Curated Models: wf-guides/model-usage.md
+    - How To Bake Textures: wf-guides/baking.md
+  - Curated Models: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
+  - Warframe Model Resources Discord: https://discord.gg/Jk3xA2T
+  - Inspiration Gallery:
+    - inspiration-gallery/index.md
