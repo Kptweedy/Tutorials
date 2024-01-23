@@ -75,12 +75,13 @@ plugins:
 nav:
   - Home: index.md
   - Warframe Guides: 
-    - wf-guides/introduction.md
+    - Introduction and Prerequisites: wf-guides/introduction.md
     - How To Use The Extractor: wf-guides/extractor.md
-    - Model Setup Prereqiusites: wf-guides/shader.md
+    - How To Use The Shaders: wf-guides/shader.md
     - How To Set Up Models: wf-guides/model-setup.md
     - How To Use Curated Models: wf-guides/model-usage.md
     - How To Bake Textures: wf-guides/baking.md
+    - Warframe Directory Layout: wf-guides/file-list.md
   - Curated Models: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
   - Warframe Model Resources Discord: https://discord.gg/Jk3xA2T
   - Inspiration Gallery:
