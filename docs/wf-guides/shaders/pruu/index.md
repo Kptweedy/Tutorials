@@ -1,28 +1,12 @@
-# Must Know Info
-### Textures/Materials
-#### Introduction
-Warframe has 3 different texture “Generations” you may encounter. Gen1 was used when the game first released, Gen2 was a transition to PBR rendering, and Gen3 is the latest version that new releases are using. You may encounter all of these depending on what you extract. Keep in mind that there exists several variations of Gen3 used for static meshes which this guide will not cover.
-
-**If you’re not familiar with these concepts, you may have trouble setting up textures:** 
-
-- Image channels (Red, Green, Blue, Alpha)
-- Normal maps
-- Tint maps, AKA ID maps
-- sRGB/Linear color space
-- Image editors (Photoshop/GIMP/Paint.net)
-
-### Needed files for blender setup
-Head to the [Mega](https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg/folder/WFcSSZ4b) and download a shader type in /Warframe Model Archive/Useful Resources/Blender Resources/Pruu Shaders or Valkyrie Shaders/  
-Most guides on this site will be using the Pruu shader
-
-## pruu guide
+## Pruu Shader Guide  
+Best read with the G123 Split Shader.blend file open.  
 ### G1
-Comes with split Diffuse/Specular/Roughness Map (Roughness Map may not be present - check Materil file for Shine and Gloss atrributes to input. 
-Use 'G2 Split Shader' to Setup 'G1'.
-Switch 'Separate...' to 1 to use them and plug corresponding textures. 
-When no roughness map present use 'No Roughness Map' and control roughness directly from 'Spec/Met/Rough Map' (its blue channel values) 
-'Pack Map Variant' in 99% of scenarios will be 0
-Plug 'Additional Metalness' manually (Usually Map Range from Specular map with values above 0.5 or 4th tint channel)
+Comes with split Diffuse/Specular/Roughness Map (Roughness Map may not be present - check Materil file for Shine and Gloss atrributes to input.  
+Use 'G2 Split Shader' to Setup 'G1'.  
+Switch 'Separate...' to 1 to use them and plug corresponding textures.  
+When no roughness map present use 'No Roughness Map' and control roughness directly from 'Spec/Met/Rough Map' (its blue channel values).  
+'Pack Map Variant' in 99% of scenarios will be 0.  
+Plug 'Additional Metalness' manually (Usually Map Range from Specular map with values above 0.5 or 4th tint channel).  
 
 ### G2
 Comes with PackMap and Tints stored in Alpha channel of PackMap
@@ -40,14 +24,14 @@ Majority of data for 'G3' comes from microdetails.
 Uniquiness for each model (Wear, Grunge, etc...) comes from Grunge options. There are 2 main ones: Grunge Red and Grunge Green under 'Grunge' tab
 'Grunge Channel Strength' control Amount and Colors. 
 'Grunge Str Spec/Met/Rough' control Amount and Values for specular/metallic/roughness that grunge layer affects. RED - specular, Green - Metallic, Blue - Roughness
-'Grunge Alpha Channel Roughness' controls Alpha map affecting roughness (If model have no alpha channel(Its White or brokenly pixelated) -> Set to 0) 
+'Grunge Alpha Channel Roughness' controls Alpha map affecting roughness (If model have no alpha channel(Its White or brokenly pixelated) -%3E Set to 0) 
 
 
 ### Additional Switches and what they do
 
 (G2)'Mask Type'
 Switch between 1 and 2. 1 when tints stored in its own texture. 2 when tints stored in PackMap Alpha channel
-(G3)'RGBA<>RGB Tint Map'
+(G3)'RGBA%3C>RGB Tint Map'
 If Tint map doesnt have Alpha channel in it switch to 1. 
 In material file mentioned as(All further repetitions will be shortened to just 'Mentioned as') TINT_MASK_RGBA or TINT_MASK_RGB
 'Fix Broken Normal Orientation'

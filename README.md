@@ -1,5 +1,5 @@
 # Tutorials
-GitHub Pages to help people with stuff
+GitHub Pages made with MkDocs-Material
 
 #### How to contribute  
 
@@ -11,23 +11,33 @@ To host a locally hosted development site first make sure that you have the late
 ```
 git clone https://github.com/Kptweedy/Tutorials.git
 ```  
+
 2.  Inside the repository create a virtual environment.  
 ```
 python -m venv venv
 ```  
-3. Activate the virtual environment.  
-```
-.\venv\Scripts\Activate.ps1
-```  
-4. Upgrade pip.  
+
+3. Activate the virtual environment.   
+	- Windows  
+	 ```
+	 .\venv\Scripts\Activate.ps1
+	 ```  
+	- Linux  
+	```
+	source /venv/bin/activate
+	```  
+	
+1. Upgrade pip.  
 ```
 python -m pip install --upgrade pip
 ```  
+
 5. Install mkdocs-material and the plugins it needs.  
 ```
 python -m pip install mkdocs-material
 pip install mkdocs-open-in-new-tab
 ```  
+
 6. Run the server and head to [http://localhost:8000]()
 ```
 mkdocs serve

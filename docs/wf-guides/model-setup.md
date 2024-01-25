@@ -13,6 +13,7 @@ Import .glb
 Find the files you extracted and import with these settings  
 - Make sure that Guess Original Bind Pose is not checked  
 - Make sure that Bone Dir is set to Temperance (average)  
+
 ![Import-2](../assets/images/Import-2.png)  
 Your blender should look like this.  
 ![](../assets/images/Imported-1.png)  
@@ -40,8 +41,8 @@ To do this go back to Object mode and click Object -> Shade Smooth or Right Clic
 It is advised to make sure you have the material .txts and a texture format other than .dds details on how to convert on the [extractor](extractor.md) page.  
 ###### 3.1 Shader Generation  
 First you will need to determine the shader generation, this is detailed in the [shader](shader.md) page.  
-The shader gauss uses is G3.
-###### 3.2 Adding Shader
+The shader gauss uses is G3.  
+###### 3.2 Adding Shader  
 As the GaussPrimeBody.txt has `AO_FROM_DETAILS_BLUE` we can look in the G123 Split Shader.blend and see that the material under `AO_FROM_DETAILS_BLUE in Txt` is the `H_Khora_Deluxe` one.  
 First, append the `H_Khora_Deluxe` material
 Next, copy the name of the original material
