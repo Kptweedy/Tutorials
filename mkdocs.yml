@@ -80,6 +80,7 @@ plugins:
 nav:
   - Home: 
     - index.md
+    - Contributing: contributing.md
     - Site Layout: layout.md
   - Warframe Guides:
     - wf-guides/index.md
@@ -97,8 +98,6 @@ nav:
     - Models:
       - How To Use Curated Models:  wf-guides/model-usage.md
       - How To Set Up Models In Blender: wf-guides/model-setup.md
-      
-
   - Curated Models and Resources: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
   - Warframe Model Resources Discord: https://discord.gg/Jk3xA2T
   - Inspiration Gallery:

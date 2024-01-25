@@ -11,7 +11,7 @@ For Details on how to use these models are on the [Downloading and using Curated
 
 ### How to extract models
 If your model is not in the curated share, you will need to use Puxtril’s Warframe Exporter to get models/textures.
-This step is detailed on the [Extractor](extractor.md) page.
+This step is detailed on the [Extractor](extractor/index.md) page.
 
 ### Setting Models Up yourself
 If you would rather set the models up yourself you can use the information on the [Setting up models](model-setup.md) page.

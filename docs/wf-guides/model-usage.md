@@ -1,6 +1,6 @@
 # How to download and use Curated Models
-This page will walk you through downloading and using the curated models.
-
+All will be rewritten soon
+<!--
 ???+ tip "Video Guides":
 
 === "Extractor Guide" 
@@ -63,5 +63,6 @@ To do this you will want to follow these steps
 This will then open up a window where you will need to navigate to where your stored your DetailTextures earlier and then you need to press the find missing files button.
 ### How to change properties
 Once you have the file ready you should first
-
+-->
+tbc.
 <!--If Pruu has a million fans, then I am one of them. If Pruu has ten fans, then I am one of them. If Pruu has only one fan then that is me. If Pruu has no fans, then that means I am no longer on earth. If the world is against Pruu, then I am against the world.-->

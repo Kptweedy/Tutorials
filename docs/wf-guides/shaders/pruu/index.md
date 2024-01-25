@@ -1,4 +1,4 @@
-## Pruu Shader Guide  
+# Pruu Shader Guide  
 Best read with the G123 Split Shader.blend file open.  
 ### G1
 Comes with split Diffuse/Specular/Roughness Map (Roughness Map may not be present - check Materil file for Shine and Gloss atrributes to input.  
