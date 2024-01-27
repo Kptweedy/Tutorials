@@ -5,6 +5,7 @@ Downloaded from [here](https://github.com/Microsoft/DirectXTex/wiki/Texconv).
 ## Texconv Script
 Converts DDS textures to a more usable format. 
 Script created by the awesome [Puxtril](https://github.com/Puxtril).  
+
 Script [Texconv](../../assets/files/ext-conv-replace.ps1)  
 
 Converts .dds textures to .png, .tga, .tiff and/or .bmp.  (1)
@@ -114,13 +115,16 @@ Converts .dds textures to .png, .tga, .tiff and/or .bmp.  (1)
 Script created by [Kptweedy](https://github.com/Kptweedy) with assistance from [Puxtrill](https://github.com/Puxtril).  
 
 Simplifies Extrator command entries to:  
-    Extractor Path  
-    Cache Dir  
-    Output Path  
-    Internal Path  
-    Extractor commands to run  
-Runs Texconv script  
-Converts {} to [] in material .txt files so that colours can be directly pasted into blender 
+
+- Extractor Path  
+- Cache Dir  
+- Output Path  
+- Internal Path  
+- Extractor commands to run  
+
+Runs Texconv script.  
+
+Converts `{ }` to `[ ]` in material .txt files so that colours can be directly pasted into Blender. 
 <!-- Zips the folder for easier sharing -->  
 <!-- Generates a file tree for easier searching of materials-->
 <!-- Coming soon -->  
