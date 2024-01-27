@@ -5,6 +5,22 @@ theme:
   favicon: assets/favicon.png
   icon:
     repo: fontawesome/brands/github
+    annotation: material/star-four-points-circle
+    admonition:
+      note: material/pencil-circle
+      abstract: material/clipboard-text
+      info: material/information
+      tip: material/fire
+      success: material/check
+      question: material/help-circle
+      warning: material/alert
+      failure: material/close
+      danger: material/lightning-bolt-circle
+      bug: material/shield-bug
+      example: material/test-tube
+      quote: material/format-quote-close
+      youtube: material/youtube
+
   features:
     - navigation.instant
     - navigation.indexes
@@ -52,6 +68,9 @@ extra:
     - icon: simple/mega
       link: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
 
+extra_css:
+  - stylesheets/extra.css
+  
 markdown_extensions:
   - admonition
   - footnotes

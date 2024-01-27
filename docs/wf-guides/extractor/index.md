@@ -1,6 +1,6 @@
 # Using The Extractor
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/71fCaIE7J_4?si=8DUQ0K3U-Ds-8uUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+??? youtube "Video Explanation"  
+	<iframe width="752" height="423" src="https://www.youtube.com/embed/71fCaIE7J_4?si=8DUQ0K3U-Ds-8uUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 1. Download the latest Extractor release from the github page.
 
