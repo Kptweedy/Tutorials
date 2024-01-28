@@ -1,9 +1,12 @@
 # Introduction 
 
 ## Ripping models from Warframe
+Ever since January 2021, when DE decided to change the way that models are stored on your computer, we are  unable to use Ninjaripper to extract models. 
+Now when you try and rip models they come out as a flattened pancake, as you can see here:  
+![Ensmallening](../assets/images/EnsmalleningSquish.png)  
+Because of this, Puxtrill took up the helm and created a tool to extract the models 
+Now we use the Warframe-Exporter created by Puxtrill, the process for this is detailed on the [Extractor](extractor/index.md) page.  
 
-Ripping from Warframe has changed - the old method of ripping via Ninjaripper no longer works as of January 2021, when DE decided to change the way models are stored on your computer. Ninjaripper will now rip models as a flattened pancake. 
-![Ensmallening](../assets/images/EnsmalleningSquish.png)
 
 ### Curated Models
 Curated models are being uploaded to the [MEGA](https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg) archive. Please check there before starting your journey through this guide, as your desired model may already be ripped. 
