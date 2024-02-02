@@ -3,7 +3,7 @@
 ## Ripping models from Warframe
 Ever since January 2021, when DE decided to change the way that models are stored on your computer, we are  unable to use Ninjaripper to extract models. 
 Now when you try and rip models they come out as a flattened pancake, as you can see here:  
-![Ensmallening](../assets/images/EnsmalleningSquish.png)  
+![Ensmallening](../assets/images/ensmallening-squish.png)  
 Because of this, Puxtrill took up the helm and created a tool to extract the models propperly.   
 Now we use the [Warframe-Exporter](https://github.com/Puxtril/Warframe-Exporter) created by Puxtrill, the process for this is detailed on the [Extractor](extractor/index.md) page.  
 
