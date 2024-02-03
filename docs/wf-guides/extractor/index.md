@@ -13,12 +13,31 @@
 	- use `cd` to change directories.  
 	- `.\` is used for the current directory.  
 	- When using a program you use arguments in the form of  `--argument`.  
+- The internal file structure of warframe can be thought of like a Unix system that uses `/` instead of `\` to denote its directories.  
 
 ### Downloading the Extractor  
 1. Head over to the releases page for the [Extractor](https://github.com/Puxtril/Warframe-Exporter/releases/latest) on GitHub and download the file called `Warframe-Exporter.exe`.  
-2. Create a folder for the extractor and the files that it will extract.
 
-3. Put `Warframe-Exporter.exe` inside that folder, go up a directory and then right click 
+2. Create a folder for the extractor as well as the files it will be extracting and then put  `Warframe-Exporter.exe` inside that folder.  
+
+### Using the Extractor 
+
+1.  Inside the folder that you have the Extractor in, hold ++shift++ and then right click, this should bring up the context menu with the option to open in Powershell.  
+	- Make Sure not to have anything selected when doing this.  
+	![open-in-powershell](../../assets/images/open-in-powershell.png)  
+
+2.  Type `.\Warframe-Exporter.exe --help` to show you all of the commands that you can use.  
+	![](../../assets/images/--help.png)
+
+3. Next you need to find where your warframe cache is stored, this will be in the same folder that you installed warframe in.  
+	- If you installed with steam click browse local files to find your installation.  
+		 ![Browse-Local](../../assets/images/browse-local.png)   
+	
+	 You then want to select the folder called `Cache.Windows` and click `Copy Path` up in the ribbon above
+	![cache.windows](../../assets/images/cache.windows.png)  
+
+### Common Extractor commands
+
 
 <!--
 1. Download the latest Extractor release from the github page.

@@ -1,8 +1,10 @@
-# Useful tools used in the process
+# Useful Tools
+This is a collection of useful tools that are used in the various processes 
 
+## Scripts
 These Scripts use the Texconv tool by microsoft, you need to put these in the same directory as the scripts.  
-Downloaded from [here](https://github.com/Microsoft/DirectXTex/wiki/Texconv).  
-## Texconv Script
+Acquired from [here](https://github.com/Microsoft/DirectXTex/wiki/Texconv).  
+### Texconv Script
 Converts DDS textures to a more usable format. 
 Script created by the awesome [Puxtril](https://github.com/Puxtril).  
 
@@ -111,7 +113,7 @@ Converts .dds textures to .png, .tga, .tiff and/or .bmp.  (1)
     }
     ```  
 
-## "Multipurpose" script  
+### "Multipurpose" script  
 Script created by [Kptweedy](https://github.com/Kptweedy) with assistance from [Puxtrill](https://github.com/Puxtril).  
 
 Simplifies Extrator command entries to:  
@@ -373,3 +375,10 @@ Script [Multipurpose script](../../assets/files/ext-conv-replace.ps1)
         Write-Host "Text replacer skipped."
     }
     ```
+
+## Applications  
+
+### XnView
+
+### Everything Search
+
