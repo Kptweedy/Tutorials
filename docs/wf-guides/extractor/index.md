@@ -16,6 +16,7 @@
 - The internal file structure of warframe can be thought of like a Unix system that uses `/` instead of `\` to denote its directories.  
 
 ### Downloading the Extractor  
+
 1. Head over to the releases page for the [Extractor](https://github.com/Puxtril/Warframe-Exporter/releases/latest) on GitHub and download the file called `Warframe-Exporter.exe`.  
 
 2. Create a folder for the extractor as well as the files it will be extracting and then put  `Warframe-Exporter.exe` inside that folder.  
