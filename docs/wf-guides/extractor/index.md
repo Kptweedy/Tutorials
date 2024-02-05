@@ -34,11 +34,12 @@ Next you need to find where your warframe cache is stored, this will be in the s
 	- If you installed with steam click browse local files to find your installation.  
 		 ![Browse-Local](../../assets/images/browse-local.png)   
 	
-	 You then want to select the folder called `Cache.Windows` and click `Copy Path` up in the ribbon above.  
-	![cache.windows](../../assets/images/cache.windows.png)  
-	You want to paste this  somewhere you can easily access it, as it is needed for all of the commands in the extractor.     
+You then want to select the folder called `Cache.Windows` and click `Copy Path` up in the ribbon above.  
+![cache.windows](../../assets/images/cache.windows.png)  
+You want to paste this  somewhere you can easily access it, as it is needed for all of the commands in the extractor.     
 
-Type `.\Warframe-Exporter.exe --help` to view all of the commands that you can use.  
+
+To get started take a look at the help page to get youself familiarised with all of the commands that can be run by using `.\Warframe-Exporter.exe --help`, open the dropdown below for what would get output on the extractor version 2.5.1.  
 
 ??? abstract "Terminal Output"  
     ```powershell
@@ -107,7 +108,7 @@ Type `.\Warframe-Exporter.exe --help` to view all of the commands that you can u
 
     ```
 
-
+### Creating your command  
 Now we want to put our command together and extract our models.  
 	For this example we will be extracting Excalibur.  
 
