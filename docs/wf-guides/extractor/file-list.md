@@ -1,5 +1,5 @@
 #  Warframe Internal Directory Structure  
-##  Internal Frame Names :octicons-arrow-right-24: Ingame Names  
+## Ingame Names :octicons-arrow-right-24: Internal Frame Names  
 
 Warframes are found inside the `/Lotus/Characters/Tenno/` directory.  
 
@@ -68,3 +68,4 @@ Warframes are found inside the `/Lotus/Characters/Tenno/` directory.
 | Xaku                                                   | BrokenWarframe |
 | Yareli                                                 | Yareli         |
 | Zephyr                                                 | Tengu          |
+

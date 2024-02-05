@@ -42,9 +42,12 @@ python -m pip install --upgrade pip
 ```
 python -m pip install mkdocs-material
 pip install mkdocs-open-in-new-tab
+
 ```  
 
 - Run the server and head to [http://localhost:8000]()
 ```
 mkdocs serve
 ```  
+
+
