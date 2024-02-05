@@ -375,10 +375,29 @@ Script [Multipurpose script](../../assets/files/ext-conv-replace.ps1)
         Write-Host "Text replacer skipped."
     }
     ```
+```
+```
 
 ## Applications  
 
-### XnView
+### [3d Viewer](https://www.microsoft.com/store/productId/9NBLGGH42THS)
+- ***Should Come With Windows*** 
+This program is useful for quickly viewing the 3d models that are exported with the exporter.  
 
-### Everything Search
+### [XnView MP](https://www.xnview.com/en/)  
+- ***Freeware***  
 
+XnView MP can be used to browse exported files with fast thumbnail generation and a preview that works with .dds files, can also be used to convert .dds files to other image formats.  
+
+### [Everything Search](https://www.voidtools.com/)
+- ***Freeware***  
+
+Very powerful searching tool that will help you find files in an instant 
+
+### WTV & DDS Utils  
+- ***Freeware & Possibly Unsafe***  
+
+I acquired these files from various websites on the internet ([Softpedia](https://www.softpedia.com/get/Multimedia/Graphic/Graphic-Viewers/WTV.shtml) & [ModDB](https://www.moddb.com/downloads/nvidia-dds-utilities)) DDS Utils is needed for WTV to work. Don't install them if you don't trust them.  
+
+[WTV&DDS Utils](../../assets/files/WTV&DDS_Utils.7z)  
+WTV(Windows Texture Viewer) is quite useful for quickly opening a .dds file and previewing the separate colour channels.  
