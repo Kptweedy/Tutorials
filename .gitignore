@@ -163,3 +163,5 @@ cython_debug/
 .obsidian/
 obsidian/
 .obsidian
+
+*.psd

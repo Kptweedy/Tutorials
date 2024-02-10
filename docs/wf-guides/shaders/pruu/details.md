@@ -1,8 +1,8 @@
 #### DetailTextures Names 
-These are the Detail Atlases and they are used for all of the microdetails in gen2/gen3 shaders, this page serves as a way to help with figuring out the details needed when setting up the shader.  
-The list is somewhat incomplete as empty material .txt files that contain what details are needed just dont work.
+These are the Detail Atlases and they are used for all of the microdetails in gen3 shaders, this page serves as a way to help with figuring out the details needed when setting up the shader.  
+The list is somewhat incomplete as empty material .txt files that contain what details are needed just don't work.
 
-![](../../../assets/images/norm-atlas%20guide.png)  
+![](../../../assets/images/normal-atlas-guide.png)  
 ![](../../../assets/images/pbr-atlas-guide.png)  
 
 0 Zeroed texture(dont affect anything) at (0 0 0 0 0)  

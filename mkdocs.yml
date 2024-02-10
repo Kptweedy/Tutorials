@@ -117,7 +117,7 @@ nav:
       - Pruu Shaders: 
         - wf-guides/shaders/pruu/index.md
         - Detail Names: wf-guides/shaders/pruu/details.md
-      - Valk Shaders: wf-guides/shaders/valk-shader.md
+      - Valkyrie Shaders: wf-guides/shaders/valk-shader.md
       - Baking Textures: wf-guides/shaders/baking.md
     - Models:
       - wf-guides/models/index.md
