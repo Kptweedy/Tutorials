@@ -16,7 +16,7 @@ Find the files you extracted and import with these settings.
 - Make sure that Guess Original Bind Pose is not checked.  
 - Make sure that Bone Dir is set to Temperance (average).  
 
-![Importing The Main Model](../../assets/images/import-2.png)  
+![Importing The Main Model](../../assets/images/import-3.png)  
 
 Your blender should contain the model that you imported as well as the skeleton of that model.  
 
@@ -88,8 +88,62 @@ Then we want to replace them with the ones we dragged in.
 1. Tint mask
 2. Normal map 
 3. Emission map 
-4. Packmap 
+4. Tint mask / Material Tint mask
+5. Packmap 
 
 ![](../../assets/images/node-replaced.png)  
 
-Now we are able to set the default colours.
+###### 3.4.3 Setting colours and details 
+
+Now we are able to set the default colours and details.  
+However, our GaussPrimeBody.txt file is empty so we need to look for the colours, grunge and details in one of the frames signature weapons, for us that would be either the Acceltra's or the Akarius' txt file.  
+Inside the Acceltra's file we find these:  
+```c
+"PrimeAcceltraMat.txt"
+
+PS:TintColor0=[0.72000003,0.69999999,0.75,0.5]
+PS:TintColor1=[0.044,0.044,0.044,0.5]
+PS:TintColor2=[0.071000002,0.054000001,0.1,0.5]
+PS:TintColor3=[0.56,0.38,0.097999997,0.5]
+
+PS:EmissiveTintColorLo=[0,0.0044999998,1,1]
+PS:EmissiveTintColorHi=[0,0.85000002,1,1]
+
+PS:UvScale01=[8,8,4,4]
+PS:UvScale23=[4,4,4,4]
+
+
+TX:BlackPackMap=/Lotus/Characters/SharedTileableTextures/PlayerTintable/Porcelain50PackMap
+TX:BlackNormalMap=/Lotus/Characters/Sentient/SentientTileableTextures/SentientSurfaceA_n.png
+
+TX:RedPackMap=/Lotus/Characters/SharedTileableTextures/PlayerTintable/Ivory50PackMap
+TX:RedNormalMap=/Lotus/Characters/SharedTileableTextures/Ivory_n.png
+
+TX:GreenPackMap=/Lotus/Characters/SharedTileableTextures/Metal/MetalMachined/MetalmachinedPackMap
+TX:GreenNormalMap=/Lotus/Characters/Sentient/SentientTileableTextures/SentientIron_n.png
+
+TX:BluePackMap=/Lotus/Characters/SharedTileableTextures/GoldSpecGlossPackMap
+TX:BlueNormalMap=/Lotus/Characters/SharedTileableTextures/GoldSpecGloss_n.png
+
+```
+!!! info "Watch out for this"
+	Your material text file might contain `{}` surrounding the colours, this makes the process of setting colours in blender a lot harder. So you want to replace them with `[]` to be able to paste them straight on to the colour slot.   
+
+First we want to add the colours, for this we copy the:
+`PS:TintColor0=` to the primary colour.  
+`PS:TintColor1=` to the secondary colour.  
+`PS:TintColor2=` to the tertiary colour.  
+`PS:TintColor3=` to the accents colour.  
+`PS:EmissiveTintColorLo=` to the emission low colour.  
+`PS:EmissiveTintColorHi=` to the emission high colour.  
+
+Now we want to set the details up, for this we need to look at the name of each of the textures specified in the `TX:**PackMap=*` and `TX:**NormalMap=*` options.  
+Then we want to cross reference them with the numbers that correspond to the [Detail Names](../shaders/pruu/details.md).  
+`BlackPackMap`/`BlackNormalMap` corresponds to `Microdetail Primary`  
+`RedPackMap`/`RedNormalMap` corresponds to `Microdetail Secondary`  
+`GreenPackMap`/`GreenNormalMap` corresponds to `Microdetail Tertiary`  
+`BluePackMap`/`BlueNormalMap` corresponds to `Microdetail Accents`  
+![Detail Numbers](../../assets/images/detail-nums.png)  
+
+###### 3.4.4 Repeat 
+After you have finished setting up the first material you want to check if there are other materials on other meshes  and if so set them up. 

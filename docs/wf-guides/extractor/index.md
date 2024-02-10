@@ -25,7 +25,7 @@ Secondly create a folder for the extractor as well as the files it will be extra
 
 Inside the folder that you have the Extractor in, hold ++shift++ and then right click, this should bring up the context menu with the option to open in Powershell.  
 	- Make Sure not to have anything selected when doing this.  
-	![open-in-powershell](../../assets/images/open-in-powershell.png)  
+	![open-in-powershell](../../assets/images/open-in-shell.png)  
 
 Once you are in the terminal type `.\Warframe-Exporter.exe --version` to make sure that you are in the right directory and it works.  
 
@@ -33,10 +33,9 @@ Once you are in the terminal type `.\Warframe-Exporter.exe --version` to make su
 Next you need to find where your warframe cache is stored, this will be in the same folder that you installed warframe in.  
 	- If you installed with steam click browse local files to find your installation.  
 		 ![Browse-Local](../../assets/images/browse-local.png)   
-	
-	 You then want to select the folder called `Cache.Windows` and click `Copy Path` up in the ribbon above.  
-	![cache.windows](../../assets/images/cache.windows.png)  
-	You want to paste this  somewhere you can easily access it, as it is needed for all of the commands in the extractor.     
+ You then want to select the folder called `Cache.Windows` and click `Copy Path` up in the ribbon above.  
+![cache.windows](../../assets/images/cache.windows.png)  
+You want to paste this  somewhere you can easily access it, as it is needed for all of the commands in the extractor.     
 
 Type `.\Warframe-Exporter.exe --help` to view all of the commands that you can use.  
 

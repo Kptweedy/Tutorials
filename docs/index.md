@@ -4,13 +4,14 @@
 
 ## **This site is still very much incomplete!!!**  
 <br>
+
 ## Contributing  
 If you would like to help with writing these guides head over to [contributing](contributing.md) to find out more information on what needs to be done and how to contribute.  
 
 ## Warframe Model Resources Guides  
 This website serves as a trove of all sorts of information and guides surrounding the processes of ripping and setting up assets from Warframe. 
 
-## What This Website Has To Offer:
+## What This Website Contains:
 
 <div class="grid cards" markdown>
 
@@ -48,7 +49,7 @@ This website serves as a trove of all sorts of information and guides surroundin
 
 </div>
 
-To get started head to the [Introduction](wf-guides/index.md) page.  
+
 <!-- ![Awesome Sandwich](https://rotatingsandwiches.com/wp-content/uploads/2023/08/taylor-ham-pork-roll.gif)   -->
 
-This site is made possible by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and [MkDocs](https://www.mkdocs.org).  
+<small>This site is made possible by [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and [MkDocs](https://www.mkdocs.org).</small>  
