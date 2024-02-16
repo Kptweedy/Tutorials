@@ -2,9 +2,12 @@
 This is a collection of useful tools that are used in the various processes 
 
 ## Scripts
-These Scripts use the Texconv tool by microsoft, you need to put these in the same directory as the scripts.  
-Acquired from [here](https://github.com/Microsoft/DirectXTex/wiki/Texconv).  
+
 ### Texconv Script
+
+These Scripts use the Texconv tool by microsoft, you need to put these in the same directory as the scripts.  
+Acquired from [Microsoft](https://github.com/Microsoft/DirectXTex/wiki/Texconv).  
+
 Converts DDS textures to a more usable format. 
 Script created by the awesome [Puxtril](https://github.com/Puxtril).  
 
@@ -379,6 +382,43 @@ Script [Multipurpose script](../../assets/files/ext-conv-replace.ps1)
 ```
 ```
 -->
+
+### Blender Import Helper Script  
+
+This script helps with the import process by automating: flipping normals, merging by distance, resetting vectors and shading smooth. 
+
+To use this script copy the text below to a text editor pane and then select all of the meshes to run it on and then press the run script button.
+??? abstract "Script"
+
+    ```py
+    import bpy
+
+    # Select the active object
+    obj = bpy.context.active_object
+
+    # 
+    for obj in bpy.context.selected_objects:
+
+        # Edit mode
+        bpy.ops.object.mode_set(mode='EDIT')
+        
+        # Flip Normals    
+        bpy.ops.mesh.flip_normals()
+
+        # Remove Doubles
+        bpy.ops.mesh.remove_doubles()
+
+        # Reset Normals
+        bpy.ops.mesh.normals_tools(mode='RESET')
+        
+        # Object mode    
+        bpy.ops.object.mode_set(mode='OBJECT')
+
+        # Shade Smooth
+        bpy.ops.object.shade_smooth()
+    ```
+
+
 ## Applications  
 
 ### [3d Viewer](https://www.microsoft.com/store/productId/9NBLGGH42THS)
