@@ -111,7 +111,7 @@ nav:
     - Extractor:
       - wf-guides/extractor/index.md
       - Warframe Directory layout: wf-guides/extractor/file-list.md
-      - Useful Tools: wf-guides/extractor/tools.md
+      - Useful Tools & Scripts: wf-guides/extractor/tools.md
     - Shaders:
       - wf-guides/shaders/index.md
       - Pruu Shaders: 

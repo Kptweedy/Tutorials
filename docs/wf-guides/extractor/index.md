@@ -22,9 +22,9 @@ Firstly head over to the releases page for the [Extractor](https://github.com/Pu
 Secondly create a folder for the extractor as well as the files it will be extracting and then put  `Warframe-Exporter.exe` inside that folder.  
 
 ## Using the Extractor 
-
+Now we want to navigate to that folder, you can either do it yourself in the terminal or follow this process to do it easily. 
 Inside the folder that you have the Extractor in, hold ++shift++ and then right click, this should bring up the context menu with the option to open in Powershell.  
-	- Make Sure not to have anything selected when doing this.  
+	- **Make Sure not to have anything selected when doing this.**  
 	![open-in-powershell](../../assets/images/open-in-shell.png)  
 
 Once you are in the terminal type `.\Warframe-Exporter.exe --version` to make sure that you are in the right directory and it works.  
