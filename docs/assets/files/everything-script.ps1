@@ -9,13 +9,26 @@ if ($warframeExporterPath -eq "") {
 # Prompt the user for the cache directory (default: D:\Program Files (x86)\Steam\steamapps\common\Warframe\Cache.Windows)
 $cacheDir = Read-Host "Enter the cache directory"
 if ($cacheDir -eq "") {
-    $cacheDir = 'D:\Program Files (x86)\Steam\steamapps\common\Warframe\Cache.Windows'
+    $cacheDir = 'C:\Program Files (x86)\Steam\steamapps\common\Warframe\Cache.Windows'
+}
+
+# URL of the Warframe updates page
+$url = "https://www.warframe.com/updates/pc"
+
+# Fetch the HTML content and extract the version number using regex
+$htmlContent = Invoke-WebRequest -Uri $url
+$versionNumberMatch = $htmlContent.Content -match '<div class="pcVersion">.*? (\d+\.\d+\.\d+)</div>'
+
+if ($versionNumberMatch) {
+    $versionNumber = $matches[1]
+} else {
+    Write-Host "Failed"
 }
 
 # Prompt the user for the common output path (default: .\Test)
 $outputPath = Read-Host "Enter the output path (Default: .\)"
 if ($outputPath -eq "") {
-    $outputPath = ".\"
+    $outputPath = ".\$versionNumber($(get-date -f yyyy-MM-dd))"
 }
 
 # Prompt the user for the internal path (default: /Lotus/Character/Tenno/Wraithe)
@@ -52,11 +65,8 @@ $selectedOptions = $userSelection -split ',' | ForEach-Object {
 
 # Iterate through each selected extraction option
 foreach ($option in $selectedOptions) {
-    # Generate a unique log file name based on the current extraction option
-    $logFileName = "Warframe-Exporter_$($option.Replace("--", "").Replace("-", ""))"
-    
     # Build the full command with the current extraction option and common output path
-    $fullCommand = "$warframeExporterPath --cache-dir ""$cacheDir"" $option --output-path ""$outputPath"" --log-file ""$logFileName.log"""
+    $fullCommand = "$warframeExporterPath --cache-dir ""$cacheDir"" $option --output-path ""$outputPath"""
 
     # Add internal path if provided
     if ($internalPath -ne "") {
@@ -70,10 +80,9 @@ foreach ($option in $selectedOptions) {
     Invoke-Expression $fullCommand
 }
 
-
 # Ask the user if they want to run the second script
-$runTexconv = Show-YesNoPrompt -message "Do you wish to run the Texture converter script? (y/N)"
-if ($runTexconv) {
+$runSecondScript = Read-Host "Do you wish to run the Texture converter script? (y/N)"
+if ($runSecondScript -eq "y" -or $runSecondScript -eq "Y") {
     #########################################################################
     # Convert .dds textures to something more usable
     # Created by Puxtril
@@ -238,19 +247,20 @@ if ($runReplacer) {
     Write-Host "Text replacer skipped."
 }
 
-# $runZipper = Show-YesNoPrompt -message "Would you like to zip the folder?"
+# Define the path to 7z executable (adjust as needed)
+$7zPath = "C:\Program Files\7-Zip\7z.exe"
 
-# if ($runZipper) {
+# Specify the directory you want to zip and the desired output zip file
+$outputPath
+$outputZipFile = "$outputPath.zip"
 
-# } else {
-#     Write-Host "Zipper Skipped"
-# }
+# Ask for user confirmation
+$zipIt = Show-YesNoPrompt -message "Would you like to zip the files up?"
 
-# $genTree = Show-YesNoPrompt -message "Generate Tree?"
-
-# if ($genTree) {
-#     $reuseOutputPath = Show-YesNoPrompt -message "Reuse Output?"
-#     tree 
-# } else {
-#     Write-Host "Tree Skipped"
-# }
+if ($zipIt) {
+    # Build the 7z command for compressing the entire directory with maximum compression
+    $7zCommand = "& '$7zPath' a -tzip -mx9 '$outputZipFile' '$outputPath\*'"
+    
+    # Execute the 7z command
+    Invoke-Expression $7zCommand
+}

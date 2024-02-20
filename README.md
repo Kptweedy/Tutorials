@@ -36,7 +36,7 @@ python -m pip install --upgrade pip
 ```
 python -m pip install mkdocs-material
 pip install mkdocs-open-in-new-tab
-pip install glightbox
+pip install mkdocs-glightbox
 ```  
 
 6. Run the server and head to [http://localhost:8000](http://localhost:8000)
