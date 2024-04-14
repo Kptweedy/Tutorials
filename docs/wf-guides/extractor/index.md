@@ -113,7 +113,7 @@ Now we want to put our command together and extract our models.
 	For this example we will be extracting Excalibur.  
 
 ```powershell
-.\Warframe-Exporter.exe --extract-models --package Misc --cache-dir 'D:\Program Files (x86)\Steam\steamapps\common\Warframe\Cache.Windows' --internal-path /Lotus/Characters/Tenno/Excalibur --output-path .\Excal  
+.\Warframe-Exporter.exe --extract-models --package Misc --cache-dir 'C:\Program Files (x86)\Steam\steamapps\common\Warframe\Cache.Windows' --internal-path /Lotus/Characters/Tenno/Excalibur --output-path .\Excal  
 ```  
 
 - `.\Warframe-Exporter.exe` Is just the program.  

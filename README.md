@@ -5,8 +5,9 @@ GitHub Pages made with MkDocs-Material
 
 To learn how to write in markdown reference this [markdown guide](https://www.markdownguide.org/basic-syntax)  
 To learn how to use github reference this [short video](https://www.youtube.com/watch?v=iv8rSLsi1xo) or if you would like to learn more reference this [long video](https://www.youtube.com/watch?v=tRZGeaHPoaw)  
+### Running a development instance
 To host a locally hosted development site first make sure that you have the latest python installed and it is in your path.
-
+ 
  1. Clone the repository.  
 ```
 git clone https://github.com/Kptweedy/Tutorials.git
