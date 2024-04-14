@@ -110,7 +110,7 @@ nav:
     - wf-guides/index.md
     - Extractor:
       - wf-guides/extractor/index.md
-      - Warframe Directory layout: wf-guides/extractor/file-list.md
+      - Internal Name Index: wf-guides/extractor/file-list.md
       - Useful Tools & Scripts: wf-guides/extractor/tools.md
     - Shaders:
       - wf-guides/shaders/index.md

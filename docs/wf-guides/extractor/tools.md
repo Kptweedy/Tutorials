@@ -454,6 +454,10 @@ To use this script copy the text below to a text editor pane and then select all
 - ***Should Come With Windows*** 
 This program is useful for quickly viewing the 3d models that are exported with the exporter.  
 
+### [F3D](https://github.com/f3d-app/f3d)
+- ***Free and Open Source***  
+Another fast 3d model viewer, however the gltf files are only viewable with raytracing, may be intensive depending on how powerful your hardware is. 
+
 ### [XnView MP](https://www.xnview.com/en/)  
 - ***Freeware***  
 

@@ -26,7 +26,7 @@ python -m venv venv
 	 ```
 	 .\venv\Scripts\Activate.ps1
 	 ```  
-=== "Unix " 
+=== "Unix like systems" 
 	
 	```
 	source /venv/bin/activate
@@ -55,7 +55,11 @@ mkdocs serve
 
 - [ ] Warframe Guides [Introduction](wf-guides/index.md)
 - [ ] [Extractor](wf-guides/extractor/index.md) Guide
-	* [ ] [Internal File Structure](wf-guides/extractor/file-list.md)
+	* [ ] [Internal Names](wf-guides/extractor/file-list.md)
+		* [x] Warframes 
+		* [ ] Primary Weapons 
+		* [ ] Secondary Weapons 
+		* [ ] Melee Weapons 
 	* [ ] [Tools](wf-guides/extractor/tools.md) 
 - [ ] Model [Introduction](wf-guides/models/index.md)
 	* [ ] [Mega](wf-guides/models/mega.md) Layout
