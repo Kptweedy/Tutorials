@@ -140,7 +140,7 @@ After that is completed we want to bring up the command again and replace `--ext
 - This will extract the .dds texture files.  
 
 - If you want to you can use some of the scripts and tools linked on the [Useful Tools](./tools.md) page to convert these textures to a more usable format.  
-Now you can navigate to the directory that you exported to and it will have all of the files needed for [Model Setup](../models/model-setup.md) 
+Now you can navigate to the directory that you exported to and it will have all of the files needed for [Character Setup](../models/character-setup.md) 
 
 ### Common Extractor commands
 These are some common commands premade so you can copy and paste them into your terminal.  
@@ -169,6 +169,7 @@ Lotus/Levels/PVP --output-path .\PVP
 ```  
 
 This will extract all of the conclave levels with all of the models assembled inside of one file, textures and materials however must be exported from other directories based on the name of the material on the individual objects inside the file.  
+This page explains how to set up levels in blender [Level Setup](../models/level-setup.md).  
 
 An example sound extract command.  
 ```powershell

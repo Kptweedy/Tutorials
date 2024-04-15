@@ -55,16 +55,13 @@ mkdocs serve
 
 - [ ] Warframe Guides [Introduction](wf-guides/index.md)
 - [ ] [Extractor](wf-guides/extractor/index.md) Guide
-	* [ ] [Internal Names](wf-guides/extractor/file-list.md)
-		* [x] Warframes 
-		* [ ] Primary Weapons 
-		* [ ] Secondary Weapons 
-		* [ ] Melee Weapons 
+	* [x] [Internal Names](wf-guides/extractor/file-list.md) 
 	* [ ] [Tools](wf-guides/extractor/tools.md) 
 - [ ] Model [Introduction](wf-guides/models/index.md)
-	* [ ] [Mega](wf-guides/models/mega.md) Layout
-	* [ ] Model [Setup](wf-guides/models/model-setup.md) 
 	* [ ] Model [Usage](wf-guides/models/model-usage.md)
+	* [ ] [Mega](wf-guides/models/mega.md) Layout
+	* [ ] Character [Setup](wf-guides/models/character-setup.md) 
+	* [ ] Level [Setup](wf-guides/models/level-setup.md)
 - [ ] Shader [Introduction](wf-guides/shaders/index.md)
 	* [ ] Pruu [Shader](wf-guides/shaders/pruu/index.md)
 	* [ ] Pruu [DetailTextures](wf-guides/shaders/pruu/details.md)  Names 
