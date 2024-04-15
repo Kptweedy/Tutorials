@@ -15,5 +15,5 @@ Details on how to use these models are on the [How to use Curated Models](models
 ### Model extraction and setip  
 If your model is not in the MEGA archive, you will need to use the Extractor to get the models.
 The [Extractor](extractor/index.md) page contains the information needed to get you started on finding and exporting the models.  
-The [Model Setup](models/model-setup.md) page contains the information on how to set up models that you have exported.  
+The [Model Setup](models/character-setup.md) page contains the information on how to set up models that you have exported.  
 The [Shaders](shaders/index.md) page contains the information needed to get you started on learning how to set up shaders for the models.  

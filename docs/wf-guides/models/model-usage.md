@@ -66,3 +66,16 @@ Once you have the file ready you should first
 -->
 tbc.
 <!--If Pruu has a million fans, then I am one of them. If Pruu has ten fans, then I am one of them. If Pruu has only one fan then that is me. If Pruu has no fans, then that means I am no longer on earth. If the world is against Pruu, then I am against the world.-->
+
+## Adding Asset Libraries 
+Asset Libraries are used to make the process of opening and using level files alot simpler and less space consuming.
+To use the AL you want to download all of the ones you will need from the mega and put them in their own folder, then you want to add them in blender by following these steps.  
+
+1. you want to add a new asset library.  
+![text](../../assets/images/asset-lib-1.png)  
+
+2. You want to go to the folder that your Asset Libraries are stored in.  
+![text](../../assets/images/asset-lib-2.png)  
+
+3. You want to make sure that the import method is set to link.  
+![text](../../assets/images/asset-lib-3.png)
