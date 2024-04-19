@@ -59,7 +59,6 @@ mkdocs serve
 	* [ ] [Tools](wf-guides/extractor/tools.md) 
 - [ ] Model [Introduction](wf-guides/models/index.md)
 	* [ ] Model [Usage](wf-guides/models/model-usage.md)
-	* [ ] [Mega](wf-guides/models/mega.md) Layout
 	* [ ] Character [Setup](wf-guides/models/character-setup.md) 
 	* [ ] Level [Setup](wf-guides/models/level-setup.md)
 - [ ] Shader [Introduction](wf-guides/shaders/index.md)
