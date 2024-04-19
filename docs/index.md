@@ -6,20 +6,20 @@
 <br>
 
 ## Contributing  
-If you would like to help with writing these guides head over to [contributing](contributing.md) to find out more information on what needs to be done and how to contribute.  
+If you would like to contribute to any of the knowlege hosted here head over to [contributing](contributing.md) to find out more information on how to contribute.  
 
-## Warframe Model Resources Guides  
-This website serves as a trove of all sorts of information and guides surrounding the processes of ripping and setting up assets from Warframe. 
+## Warframe Model Resources Knowledge Base  
+This website serves as a knowledge base of information and guides surrounding the processes of ripping and setting up assets from Warframe. 
 
-## What This Website Contains:
+## What This Knowledge Base Contains:
 
 <div class="grid cards" markdown>
 
--   :octicons-book-16:{ .lg .middle } __Tutorials__
+-   :octicons-book-16:{ .lg .middle } __Guides__
 
     ---
 
-    Dive into our step-by-step tutorials on how to extract and set up Warframe models in Blender.
+    Dive into our step-by-step Guides on how to export and set up Warframe models in Blender.
 
     [:octicons-arrow-right-24: Warframe Guides](wf-guides/index.md)
 

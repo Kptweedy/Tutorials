@@ -17,3 +17,18 @@
     -webkit-mask-image: var(--md-admonition-icon--youtube);
             mask-image: var(--md-admonition-icon--youtube);
   }
+
+@media only screen and (min-width: 76.25em) {
+  .md-main__inner {
+    max-width: 95%;
+  }
+  .md-sidebar--primary {
+    left: 0;
+  }
+  .md-sidebar--secondary {
+    right: 0;
+    margin-left: 0;
+    -webkit-transform: none;
+    transform: none;   
+  }
+}

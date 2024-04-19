@@ -105,7 +105,6 @@ nav:
   - Home: 
     - index.md
     - Contributing: contributing.md
-    - Site Layout: layout.md
   - Warframe Guides:
     - wf-guides/index.md
     - Extractor:
@@ -122,7 +121,6 @@ nav:
     - Models:
       - wf-guides/models/index.md
       - How to use Curated Models:  wf-guides/models/model-usage.md
-      - Mega Layout: wf-guides/models/mega.md
       - How to set up Characters in Blender: wf-guides/models/character-setup.md
       - How to set up Levels in Blender: wf-guides/models/level-setup.md
   - Curated Models and Resources: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
