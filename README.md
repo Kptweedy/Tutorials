@@ -1,9 +1,9 @@
 # Tutorials
-GitHub Pages made with MkDocs-Material
-
+GitHub Pages made with Material for MkDocs
+[![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 #### How to contribute  
 
-To learn how to write in markdown reference this [markdown guide](https://www.markdownguide.org/basic-syntax)  
+To learn how to utilise  the markdown syntax reference this [markdown guide](https://www.markdownguide.org/basic-syntax)  
 To learn how to use github reference this [short video](https://www.youtube.com/watch?v=iv8rSLsi1xo) or if you would like to learn more reference this [long video](https://www.youtube.com/watch?v=tRZGeaHPoaw)  
 ### Running a development instance
 To host a locally hosted development site first make sure that you have the latest python installed and it is in your path.
