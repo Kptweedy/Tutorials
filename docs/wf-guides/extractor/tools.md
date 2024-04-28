@@ -468,6 +468,11 @@ XnView MP can be used to browse exported files with fast thumbnail generation an
 
 Very powerful searching tool that will help you find files in an instant 
 
+### [WinMerge](https://winmerge.org/)
+- ***Free and Open Source***
+
+Useful for finding differences in material files when updating/adding materials 
+
 ### WTV & DDS Utils  
 - ***Freeware & Possibly Unsafe***  
 

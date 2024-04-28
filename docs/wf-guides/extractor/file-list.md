@@ -670,250 +670,64 @@ Skins are usually found in the same directory as the weapon.
 
 #### Misc Data 
 
-| Display Name         | Internal Name                                                                             |
-|:-------------------- |:----------------------------------------------------------------------------------------- |
-| Ack & Brunt          | /Lotus/Weapons/Grineer/Melee/GrineerTylAxeAndBoar/RegorAxeShield                          |
-| Amphis               | /Lotus/Weapons/Tenno/Melee/Staff/GrnStaff                                                 |
-| Anku                 | /Lotus/Weapons/Tenno/Melee/Scythe/ParisScythe/ParisScythe                                 |
-| Ankyros              | /Lotus/Weapons/Tenno/Melee/Gauntlet/Gauntlet                                              |
-| Ankyros Prime        | /Lotus/Weapons/Tenno/Melee/Gauntlet/PrimeAnkyros/PrimeAnkyros                             |
-| Arca Titron          | /Lotus/Weapons/Corpus/Melee/Hammer/CorpusHammerWeapon                                     |
-| Argo & Vel           | /Lotus/Weapons/Tenno/Melee/SwordsAndBoards/DaxDuviriMaceShieldWeapon                      |
-| Arum Spinosa         | /Lotus/Weapons/Infested/Melee/InfWarfan/InfWarfanWeapon                                   |
-| Atterax              | /Lotus/Weapons/Grineer/Melee/GrineerWhip/GrineerWhip                                      |
-| Azothane             | /Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriTwoHandedKatana/DaxDuviriTwoHandedKatanaWeapon |
-| Balla                | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipOne                           |
-| Balla                | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipOne                                     |
-| Bo                   | /Lotus/Weapons/Tenno/Melee/Staff/Staff                                                    |
-| Bo Prime             | /Lotus/Weapons/Tenno/Melee/Staff/PrimeBo/PrimeBoWeapon                                    |
-| Boltace              | /Lotus/Weapons/Tenno/Melee/Tonfa/Boltonfa/Boltonfa                                        |
-| Broken Scepter       | /Lotus/Weapons/Grineer/Melee/GrnQueenSceptre/GrnQueenSceptreWeapon                        |
-| Broken War           | /Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoSmallSword                         |
-| Cadus                | /Lotus/Weapons/Tenno/Melee/Staff/SingleStaff                                              |
-| Cassowar             | /Lotus/Weapons/Tenno/Melee/Polearms/TnHalberdPolearm/TnHalberdPolearmWeapon               |
-| Caustacyst           | /Lotus/Weapons/Infested/Melee/InfEmbolistScythe/InfestedScythe                            |
-| Ceramic Dagger       | /Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger                                           |
-| Cerata               | /Lotus/Weapons/Infested/Melee/Glaives/PunctureGlaive/PunctureGlaiveWeapon                 |
-| Ceti Lacera          | /Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/OperationsLacera                            |
-| Cobra & Crane        | /Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PacifistShieldAndSword/PacifistShieldSword     |
-| Cobra & Crane Prime  | /Lotus/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon    |
-| Cronus               | /Lotus/Weapons/Tenno/Melee/CronusSword/CronusLongSword                                    |
-| Cyath                | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipFour                          |
-| Cyath                | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFour                                    |
-| Dakra Prime          | /Lotus/Weapons/Tenno/Melee/CronusSword/PrimeCronusLongSword                               |
-| Dark Dagger          | /Lotus/Weapons/Tenno/Melee/Dagger/DarkDagger                                              |
-| Dark Split-Sword     | /Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkSwordDaggerHybridWeapon                   |
-| Dark Sword           | /Lotus/Weapons/Tenno/Melee/Swords/DarkSword/DarkLongSword                                 |
-| Dehtat               | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipFive                          |
-| Dehtat               | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipFive                                    |
-| Destreza             | /Lotus/Weapons/Tenno/Melee/Swords/TnoRapier/TnoRapier                                     |
-| Destreza Prime       | /Lotus/Weapons/Tenno/Melee/Swords/PRapier/DestrezaPrime                                   |
-| Dex Dakra            | /Lotus/Weapons/Tenno/Melee/Swords/DexTheSecond/DexTheSecond                               |
-| Dex Nikana           | /Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Dex2023Nikana/Dex2023Nikana          |
-| Dokrahm              | /Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipEleven                                  |
-| Dorrclave            | /Lotus/Weapons/Tenno/Melee/Swords/TnDagathBladeWhip/TnDagathBladeWhip                     |
-| Dragon Nikana        | /Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/LowKatana                            |
-| Dual Cleavers        | /Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/DualCleaverWeapon                  |
-| Dual Ether           | /Lotus/Weapons/Tenno/Melee/DualShortSword/DualEtherSword                                  |
-| Dual Heat Swords     | /Lotus/Weapons/Tenno/Melee/DualShortSword/DualHeatSwords                                  |
-| Dual Ichor           | /Lotus/Weapons/Tenno/Melee/Axe/DualInfestedAxesWeapon                                     |
-| Dual Kamas           | /Lotus/Weapons/Tenno/Melee/DualKamas/DualKamas                                            |
-| Dual Kamas Prime     | /Lotus/Weapons/Tenno/Melee/PrimeDualKamas/PrimeDualKamas                                  |
-| Dual Keres           | /Lotus/Weapons/Tenno/Melee/Swords/QuillSword/QuillDualSwords                              |
-| Dual Keres Prime     | /Lotus/Weapons/Tenno/Melee/Swords/PrimeDualKeres/PrimeDualKeresWeapon                     |
-| Dual Raza            | /Lotus/Weapons/Tenno/Melee/Soma/SomaDualKamas                                             |
-| Dual Skana           | /Lotus/Weapons/Tenno/Melee/DualShortSword/DualShortSword                                  |
-| Dual Zoren           | /Lotus/Weapons/Tenno/Melee/Axe/DualAxeWeapon                                              |
-| Edun                 | /Lotus/Weapons/Tenno/Melee/Polearms/DaxDuviriPolearm/DaxDuviriPolearmWeapon               |
-| Ekhein               | /Lotus/Weapons/Thanotech/EntSphereHammer/EntSphereHammer                                  |
-| Ekwana Ii Jai        | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusII                  |
-| Ekwana Ii Ruhang     | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusII                 |
-| Ekwana Jai           | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIStatusI                   |
-| Ekwana Jai Ii        | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIIStatusI                  |
-| Ekwana Ruhang        | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIStatusI                  |
-| Ekwana Ruhang Ii     | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIIStatusI                 |
-| Endura               | /Lotus/Weapons/Tenno/Melee/Swords/ThreeLeaf/ThreeLeaf                                     |
-| Ether Daggers        | /Lotus/Weapons/Tenno/Melee/DualDagger/DualEtherDagger                                     |
-| Ether Reaper         | /Lotus/Weapons/Tenno/Melee/Scythe/EtherScytheWeapon                                       |
-| Ether Sword          | /Lotus/Weapons/Tenno/Melee/LongSword/EtherSword                                           |
-| Falcor               | /Lotus/Weapons/Corpus/Melee/Glaive/CrpGlaive/CrpGlaive                                    |
-| Fang                 | /Lotus/Weapons/Tenno/Melee/DualDagger/DualDagger                                          |
-| Fang Prime           | /Lotus/Weapons/Tenno/Melee/DualDagger/FangPrimeDagger                                     |
-| Fragor               | /Lotus/Weapons/Tenno/Melee/Hammer/HammerWeapon                                            |
-| Fragor Prime         | /Lotus/Weapons/Tenno/Melee/PrimeFragor/PrimeFragor                                        |
-| Furax                | /Lotus/Weapons/Tenno/Melee/Fist/Fist                                                      |
-| Furax Wraith         | /Lotus/Weapons/Tenno/Melee/Fist/FuraxWraith                                               |
-| Galatine             | /Lotus/Weapons/Tenno/Melee/Swords/GreatSword/TennoGreatSword                              |
-| Galatine Prime       | /Lotus/Weapons/Tenno/Melee/Swords/PrimeGalatine/PrimeGalatine                             |
-| Galvacord            | /Lotus/Weapons/Corpus/Melee/Whips/CrpShockGrip/CrpShockGripWhipWeapon                     |
-| Gazal Machete        | /Lotus/Weapons/Tenno/Melee/PersianMachete/DjinnMachete                                    |
-| Ghoulsaw             | /Lotus/Weapons/Grineer/Melee/GrnGhoulSaw/GrnGhoulSawPlayer                                |
-| Glaive               | /Lotus/Weapons/Tenno/Melee/Glaives/LightGlaive/LightGlaiveWeapon                          |
-| Glaive Prime         | /Lotus/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon                          |
-| Gram                 | /Lotus/Weapons/Tenno/Melee/GreatSword/GreatSword                                          |
-| Gram Prime           | /Lotus/Weapons/Tenno/Melee/Swords/PrimeGram/PrimeGram                                     |
-| Guandao              | /Lotus/Weapons/Tenno/Melee/Polearms/TnGuandaoPolearm/TnGuandaoPolearmWeapon               |
-| Guandao Prime        | /Lotus/Weapons/Tenno/Melee/Polearms/PrimeGuandao/PrimeGuandaoWeapon                       |
-| Gunsen               | /Lotus/Weapons/Tenno/Melee/Warfan/WarfanWeapon                                            |
-| Gunsen Prime         | /Lotus/Weapons/Tenno/Melee/Warfan/PrimeGunsen/PrimeGunsenWeapon                           |
-| Halikar              | /Lotus/Weapons/Grineer/Melee/GrnBoomerang/GrnBoomerang                                    |
-| Halikar Wraith       | /Lotus/Weapons/Grineer/Melee/GrnBoomerang/HalikarWraithWeapon                             |
-| Hate                 | /Lotus/Weapons/Tenno/Melee/Scythe/StalkerScytheWeapon                                     |
-| Heat Dagger          | /Lotus/Weapons/Tenno/Melee/Dagger/Dagger                                                  |
-| Heat Sword           | /Lotus/Weapons/Tenno/Melee/Swords/HeatSword/HeatLongSword                                 |
-| Heliocor             | /Lotus/Weapons/Cephalon/Melee/Hammer/CephHammerWeapon                                     |
-| Hespar               | /Lotus/Weapons/Tenno/Melee/HeavyScythe/DuviriScythe/DuviriHeavyScytheWeapon               |
-| Hirudo               | /Lotus/Weapons/Infested/Melee/InfWFAccompanyingSparring/InfestedKogake                    |
-| Innodem              | /Lotus/Weapons/Tenno/Zariman/Melee/Dagger/ZarimanDaggerWeapon                             |
-| Jai                  | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedI                          |
-| Jai Ii               | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedII                         |
-| Jat Kittag           | /Lotus/Weapons/Grineer/Melee/GrineerJetPoweredPolearm/GrineerJetPolearm                   |
-| Jat Kusar            | /Lotus/Weapons/Grineer/Melee/GrnKusarigama/GrnKusarigamaWeapon                            |
-| Jaw Sword            | /Lotus/Weapons/Tenno/Melee/Swords/JawSword/JawLongSword                                   |
-| Jayap                | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFive                              |
-| Kama                 | /Lotus/Weapons/Tenno/Melee/DualKamas/SingleKama                                           |
-| Karyst               | /Lotus/Weapons/Tenno/Melee/Swords/KrisDagger/KrisDagger                                   |
-| Karyst Prime         | /Lotus/Weapons/Tenno/Melee/Swords/PrimeKaryst/PrimeKrisDagger                             |
-| Keratinos            | /Lotus/Weapons/Infested/Melee/InfTransformClaw/InfTransformClawsWeapon                    |
-| Kesheg               | /Lotus/Weapons/Grineer/Melee/GrineerHalberd/GrnHalberd                                    |
-| Kestrel              | /Lotus/Weapons/Tenno/Melee/Glaives/Boomerang/BoomerangWeapon                              |
-| Kogake               | /Lotus/Weapons/Tenno/Melee/BrassKnuckles/BrassKnuckles                                    |
-| Kogake Prime         | /Lotus/Weapons/Tenno/Melee/PrimeKogake/KogakePrimeKnuckles                                |
-| Korb                 | /Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleNine                              |
-| Korrudo              | /Lotus/Weapons/Grineer/Melee/GrnSparring/GrnSpiderSparring/GrnSpiderSparring              |
-| Korumm               | /Lotus/Weapons/Archon/Melee/Trident/ArchonTridentPlayerWep                                |
-| Kreska               | /Lotus/Weapons/Corpus/Melee/CrpVenusHatchet/CrpVenusHatchet                               |
-| Krohkur              | /Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/GrnEgyptSwdWeapon                                |
-| Kronen               | /Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinner/TennoTonfa                            |
-| Kronen Prime         | /Lotus/Weapons/Tenno/Melee/Tonfa/TonfaContestWinnerPrime/TonfaContestWinnerPrimeWeapon    |
-| Kronsh               | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipSix                           |
-| Kronsh               | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipSix                                     |
-| Kroostra             | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleSix                               |
-| Kuva Shildeg         | /Lotus/Weapons/Grineer/Melee/GrnKuvaLichScythe/GrnKuvaLichScytheWeapon                    |
-| Kwath                | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleThree                             |
-| Lacera               | /Lotus/Weapons/Tenno/Melee/Swords/StalkerMios/StalkerMios                                 |
-| Laka                 | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleTwo                               |
-| Lecta                | /Lotus/Weapons/Corpus/Melee/Whip/CorpusWhipWeapon                                         |
-| Lesion               | /Lotus/Weapons/Infested/Melee/TipedoStaff/InfTipedoStaff                                  |
-| Machete              | /Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/Machete                            |
-| Machete Wraith       | /Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/WraithMacheteWeapon                |
-| Magistar             | /Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon                            |
-| Masseter             | /Lotus/Weapons/Tenno/Melee/Swords/TnChiselKanabo/TnChiselKanabo                           |
-| Masseter Prime       | /Lotus/Weapons/Tenno/Melee/Swords/PrimeMasseter/PrimeMasseter                             |
-| Mewan                | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipThree                         |
-| Mewan                | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipThree                                   |
-| Mios                 | /Lotus/Weapons/Infested/Melee/Swords/Mios/Mios                                            |
-| Mire                 | /Lotus/Weapons/Infested/Melee/Swords/Mire/MireSword                                       |
-| Mk1-Bo               | /Lotus/Weapons/MK1Series/MK1Bo                                                            |
-| Mk1-Furax            | /Lotus/Weapons/MK1Series/MK1Furax                                                         |
-| Nami Skyla           | /Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/CutlassPoignardSwords                |
-| Nami Skyla Prime     | /Lotus/Weapons/Tenno/Melee/Swords/PrimeNamiSkyla/PrimeNamiSkyla                           |
-| Nami Solo            | /Lotus/Weapons/Tenno/Melee/Swords/CutlassAndPoignard/TennoCutlass                         |
-| Nepheri              | /Lotus/Weapons/Archon/Melee/DualDaggers/ArchonDualDaggersPlayerWep                        |
-| Nikana               | /Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/Katana                               |
-| Nikana Prime         | /Lotus/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana                                 |
-| Ninkondi             | /Lotus/Weapons/Tenno/Melee/Nunchaku/Nunchaku/Nunchaku                                     |
-| Ninkondi Prime       | /Lotus/Weapons/Tenno/Melee/PrimeNinkondi/PrimeNikondi                                     |
-| Obex                 | /Lotus/Weapons/Corpus/Melee/KickAndPunch/KickPunchWeapon                                  |
-| Ohma                 | /Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpTonfa                                             |
-| Okina                | /Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais                                      |
-| Ooltha               | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/PvPVariantTipTwo                           |
-| Ooltha               | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Tip/TipTwo                                     |
-| Orthos               | /Lotus/Weapons/Tenno/Melee/Polearms/PolearmWeapon                                         |
-| Orthos Prime         | /Lotus/Weapons/Tenno/Melee/Polearms/PrimePolearmWeapon                                    |
-| Orvius               | /Lotus/Weapons/Tenno/Melee/Glaives/TeshinGlaive/TnTeshinGlaiveWep                         |
-| Pangolin Prime       | /Lotus/Weapons/Tenno/Melee/Swords/PrimePangolinSword/PrimePangolinSword                   |
-| Pangolin Sword       | /Lotus/Weapons/Tenno/Melee/Swords/PangolinSword/PangolinLongSword                         |
-| Paracesis            | /Lotus/Weapons/Orokin/BallasSword/BallasSwordWeapon                                       |
-| Pathocyst            | /Lotus/Weapons/Infested/Melee/InfBoomerang/InfBoomerangWeapon                             |
-| Pennant              | /Lotus/Weapons/Tenno/Melee/Swords/TnRailjackGreatKatana/TnRailJackGreatKatanaWeapon       |
-| Peye                 | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleOne                               |
-| Plague Akwin         | /Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Handles/InfestedHandleOne                |
-| Plague Bokwin        | /Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Handles/InfestedHandleTwo                |
-| Plague Keewar        | /Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipTwo                      |
-| Plague Keewar        | /Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/PvPVariantInfestedTipTwo            |
-| Plague Kripath       | /Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/InfestedTipOne                      |
-| Plague Kripath       | /Lotus/Weapons/Ostron/Melee/ModularMeleeInfested/Tips/PvPVariantInfestedTipOne            |
-| Plasma Sword         | /Lotus/Weapons/Tenno/Melee/Swords/PlasmaSword/PlasmaLongSword                             |
-| Praedos              | /Lotus/Weapons/Tenno/Zariman/Melee/Tonfas/ZarimanTonfaWeapon                              |
-| Prisma Dual Cleavers | /Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaDualCleavers                 |
-| Prisma Machete       | /Lotus/Weapons/Grineer/Melee/GrineerMachetteAndCleaver/PrismaMachete                      |
-| Prisma Obex          | /Lotus/Weapons/Corpus/Melee/KickAndPunch/PrismaObex                                       |
-| Prisma Ohma          | /Lotus/Weapons/Corpus/Melee/CrpTonfa/CrpPrismaTonfa                                       |
-| Prisma Skana         | /Lotus/Weapons/VoidTrader/PrismaSkana                                                     |
-| Prova                | /Lotus/Weapons/ClanTech/Energy/ElectroProd                                                |
-| Prova Vandal         | /Lotus/Weapons/ClanTech/Energy/VandalElectroProd                                          |
-| Pulmonars            | /Lotus/Weapons/Infested/Melee/Nunchaku/InfNunchuck/InfNunchuck                            |
-| Pupacyst             | /Lotus/Weapons/Infested/Melee/Staff/InfStaff/InfStaff                                     |
-| Quassus              | /Lotus/Weapons/Tenno/Melee/Warfan/TnBrokenFrameWarfan/TnBrokenFrameWarfanWeapon           |
-| Rabvee               | /Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipTen                                     |
-| Rakta Dark Dagger    | /Lotus/Weapons/Syndicates/RedVeil/Melee/RVDarkDagger                                      |
-| Reaper Prime         | /Lotus/Weapons/Tenno/Melee/Scythe/ReaperWeapon                                            |
-| Redeemer             | /Lotus/Weapons/Tenno/Melee/Gunblade/TnoGunblade                                           |
-| Redeemer Prime       | /Lotus/Weapons/Tenno/Melee/Gunblade/RedeemerPrime/RedeemerPrimeWep                        |
-| Ripkas               | /Lotus/Weapons/Grineer/Melee/GrineerClaws/GrnClaws                                        |
-| Ruhang               | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageI                         |
-| Ruhang Ii            | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageII                        |
-| Rumblejack           | /Lotus/Weapons/Operator/Melee/DrifterTazer/DrifterTazerPlayerWep                          |
-| Ruvox                | /Lotus/Weapons/Thanotech/EntFistIncarnon/EntFistIncarnon                                  |
-| Sampotes             | /Lotus/Weapons/Tenno/Melee/Hammer/DaxDuviriHammer/DaxDuviriHammerWeapon                   |
-| Sancti Magistar      | /Lotus/Weapons/Syndicates/NewLoka/Melee/NLMagistar                                        |
-| Sarofang             | /Lotus/Weapons/Tenno/Melee/Axe/WolfFrameAxeWeapon                                         |
-| Sarpa                | /Lotus/Weapons/Tenno/Melee/Gunblade/GunbladeAutomatic/TnoGunbladeAutomatic                |
-| Scindo               | /Lotus/Weapons/Tenno/Melee/Axe/AxeWeapon                                                  |
-| Scindo Prime         | /Lotus/Weapons/Tenno/Melee/Axe/PrimeScindo/PrimeScindoWeapon                              |
-| Scoliac              | /Lotus/Weapons/Infested/Melee/Whip/InfestedWhip/InfestedWhipWeapon                        |
-| Secura Lecta         | /Lotus/Weapons/Syndicates/PerrinSequence/Melee/PSLecta                                    |
-| Seekalla             | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Handle/HandleFour                              |
-| Sepfahn              | /Lotus/Weapons/Ostron/Melee/ModularMelee02/Tip/TipNine                                    |
-| Serro                | /Lotus/Weapons/Corpus/Melee/Polearm/CorpusPolearm01/CorpusPolearmWeapon                   |
-| Shaku                | /Lotus/Weapons/Tenno/Melee/Nunchaku/TnoNunchaku/TnoNunchaku                               |
-| Sheev                | /Lotus/Weapons/Grineer/Melee/GrineerCombatKnife/GrineerCombatKnife                        |
-| Shtung               | /Lotus/Weapons/Ostron/Melee/ModularMelee02/Handle/HandleTen                               |
-| Sibear               | /Lotus/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer                                     |
-| Sigma & Octantis     | /Lotus/Weapons/Tenno/Melee/SwordsAndBoards/SundialSwordBoard/SundialBoardSword            |
-| Silva & Aegis        | /Lotus/Weapons/Tenno/Melee/SwordsAndBoards/MeleeContestWinnerOne/TennoSwordShield         |
-| Silva & Aegis Prime  | /Lotus/Weapons/Tenno/Melee/PrimeSilvaAegis/PrimeSilvaAegis                                |
-| Skana                | /Lotus/Weapons/Tenno/Melee/LongSword/LongSword                                            |
-| Skana Prime          | /Lotus/Weapons/Tenno/Melee/LongSword/SkanaPrime                                           |
-| Skiajati             | /Lotus/Weapons/Tenno/Melee/Swords/UmbraKatana/UmbraKatana                                 |
-| Slaytra              | /Lotus/Weapons/Grineer/Melee/GrnSharbola/GrnSharbolaWeapon                                |
-| Stropha              | /Lotus/Weapons/Corpus/Melee/Gunblade/CrpGunBlade/CrpGunbladeWeapon                        |
-| Sun & Moon           | /Lotus/Types/Friendly/PlayerControllable/Weapons/DuviriDualSwordsWeapon                   |
-| Syam                 | /Lotus/Weapons/Tenno/Melee/Swords/DaxDuviriKatana/DaxDuviriKatanaWeapon                   |
-| Sydon                | /Lotus/Weapons/Grineer/Melee/GrnTrident/GrnTridentWeapon                                  |
-| Synoid Heliocor      | /Lotus/Weapons/Syndicates/CephalonSuda/Melee/CSHeliocor                                   |
-| Tatsu                | /Lotus/Weapons/Tenno/Melee/Swords/TnTwoHandedKatana/TnTwoHandedKatana                     |
-| Tatsu Prime          | /Lotus/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon                             |
-| Tekko                | /Lotus/Weapons/Tenno/Melee/Gauntlet/BrawlerKnuckles/BrawlerKnuckles                       |
-| Tekko Prime          | /Lotus/Weapons/Tenno/Melee/PrimeTekko/PrimeTekko                                          |
-| Telos Boltace        | /Lotus/Weapons/Syndicates/ArbitersOfHexis/Melee/AHBoltace                                 |
-| Tenet Agendus        | /Lotus/Weapons/Corpus/Melee/ShieldAndSword/CrpHammerShield/CrpHammerShield                |
-| Tenet Exec           | /Lotus/Weapons/Tenno/Melee/Swords/CrpBigSlash/CrpBigSlash                                 |
-| Tenet Grigori        | /Lotus/Weapons/Corpus/Melee/CrpBriefcaseScythe/CrpBriefcaseScythe                         |
-| Tenet Livia          | /Lotus/Weapons/Corpus/Melee/CrpBriefcase2HKatana/CrpBriefcase2HKatana                     |
-| Tipedo               | /Lotus/Weapons/Tenno/Melee/Staff/MonkSpade/TnoMonkStaff                                   |
-| Tipedo Prime         | /Lotus/Weapons/Tenno/Melee/Staff/TipedoPrime/TipedoPrimeWeapon                            |
-| Tonbo                | /Lotus/Weapons/Tenno/Melee/Polearms/FlowerPowerPolearm/FlowerPowerPolearmWep              |
-| Twin Basolk          | /Lotus/Weapons/Grineer/Melee/GrnDualFireAxe/GrnDualFireAxe                                |
-| Twin Krohkur         | /Lotus/Weapons/Grineer/Melee/GrnEgyptSwd/DualGrnEgyptSwdWeapon                            |
-| Vargeet Ii Jai       | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritII                    |
-| Vargeet Ii Ruhang    | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritII                   |
-| Vargeet Jai          | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedICritI                     |
-| Vargeet Jai Ii       | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceSpeedIICritI                    |
-| Vargeet Ruhang       | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageICritI                    |
-| Vargeet Ruhang Ii    | /Lotus/Weapons/Ostron/Melee/ModularMelee01/Balance/BalanceDamageIICritI                   |
-| Vastilok             | /Lotus/Weapons/Grineer/Melee/GunBlade/GrnGunBlade/GrnGunblade                             |
-| Vaykor Sydon         | /Lotus/Weapons/Syndicates/SteelMeridian/Melee/SMSydon                                     |
-| Venato               | /Lotus/Weapons/Sentients/SentJointedScythe/SentJointedScytheWeapon                        |
-| Venka                | /Lotus/Weapons/Tenno/Melee/Claws/TennoClaws                                               |
-| Venka Prime          | /Lotus/Weapons/Tenno/Melee/PrimeVenKa/PrimeVenkaClaws                                     |
-| Verdilac             | /Lotus/Weapons/Archon/Melee/Whip/ArchonWhipPlayerWep                                      |
-| Vericres             | /Lotus/Weapons/Tenno/Melee/Warfan/TnMoonWarfan/MoonWarfanWeapon                           |
-| Vitrica              | /Lotus/Weapons/Tenno/Melee/Swords/NWIIIOrokinSword/NWOrokinSword                          |
-| Volnus               | /Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammer                                 |
-| Volnus Prime         | /Lotus/Weapons/Tenno/Melee/PrimeVolnus/VolnusPrimeWeapon                                  |
-| War                  | /Lotus/Weapons/Tenno/Melee/Swords/StalkerTwo/StalkerTwoGreatSword                         |
-| Wolf Sledge          | /Lotus/Weapons/Tenno/Melee/Hammer/ThrowingHammer                                          |
-| Xoris                | /Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive            |
-| Zenistar             | /Lotus/Weapons/Tenno/Melee/SunDialAxe/SundialAxeWeapon                                    |
+| Display Name      | Internal Name                                                                                      |
+|:------------------|:---------------------------------------------------------------------------------------------------|
+| Anspatha Brace    | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Grip/SentAmpSet2GripPartA                         |
+| Arcroid           | /Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfSmallClip/InfModularClipSmallCritStatPart       |
+| Bashrack          | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritICapIClipPart      |
+| Bellows           | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCapIIClipPart          |
+| Brash             | /Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleAPart      |
+| Cantic Prism      | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartA                        |
+| Catchmoon         | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelAPart |
+| Certus Brace      | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartC                            |
+| Clapkra Brace     | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartA                         |
+| Dissic Scaffold   | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartB                      |
+| Exard Scaffold    | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartA                      |
+| Flutterfire       | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatIIReloadIClipPart  |
+| Gaze              | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelDPart |
+| Gibber            | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Handle/SUModularSecondaryHandleDPart |
+| Granmu Prism      | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartC                     |
+| Haymaker          | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Handle/SUModularSecondaryHandleCPart |
+| Juttni Brace      | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartB                         |
+| Killstream        | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritIIReloadIClipPart  |
+| Klamora Prism     | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartC                        |
+| Klebrik Scaffold  | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartC                   |
+| Lega Prism        | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Barrel/CorpAmpSet1BarrelPartB                        |
+| Lohrin Brace      | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Grip/SentAmpSet1GripPartC                         |
+| Lovetap           | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Handle/SUModularSecondaryHandleBPart |
+| Macro Arcroid     | /Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigPart                   |
+| Macro Thymoid     | /Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfClipBig/InfModularClipBigCritStatPart           |
+| Mote Brace        | /Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingGrip              |
+| Mote Prism        | /Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingBarrel            |
+| Mote Scaffold     | /Lotus/Weapons/Sentients/OperatorAmplifiers/SentTrainingAmplifier/SentAmpTrainingChassis           |
+| Palmaris          | /Lotus/Weapons/Infested/Pistols/InfKitGun/Handles/InfPrimaryHandle/InfModularPrimaryHandlePart     |
+| Pencha Scaffold   | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartA                   |
+| Phahd Scaffold    | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Chassis/SentAmpSet2ChassisPartA                   |
+| Plaga Brace       | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartB                            |
+| Propa Scaffold    | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Chassis/CorpAmpSet1ChassisPartC                      |
+| Rahn Prism        | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set2/Barrel/SentAmpSet2BarrelPartA                     |
+| Ramble            | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Handle/SUModularSecondaryHandleAPart |
+| Ramflare          | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatIICapIClipPart     |
+| Raplak Prism      | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartA                     |
+| Rattleguts        | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelCPart |
+| Shraksun Scaffold | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Chassis/SentAmpSet1ChassisPartB                   |
+| Shrewd            | /Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleBPart      |
+| Shwaak Prism      | /Lotus/Weapons/Sentients/OperatorAmplifiers/Set1/Barrel/SentAmpSet1BarrelPartB                     |
+| Slap              | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularReloadIClipPart        |
+| Slapneedle        | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritIReloadIClipPart   |
+| Sparkfire         | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatICapIClipPart      |
+| Splat             | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritIICapIClipPart     |
+| Sporelacer        | /Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelEgg/InfModularBarrelEggPart             |
+| Steadyslam        | /Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleCPart      |
+| Stitch            | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritICapIIClipPart     |
+| Suo Brace         | /Lotus/Weapons/Corpus/OperatorAmplifiers/Set1/Grip/CorpAmpSet1GripPartA                            |
+| Swiftfire         | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatIReloadIClipPart   |
+| Thunderdrum       | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatICapIIClipPart     |
+| Thymoid           | /Lotus/Weapons/Infested/Pistols/InfKitGun/Clips/InfSmallClip/InfModularClipSmallPart               |
+| Tombfinger        | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Barrel/SUModularSecondaryBarrelBPart |
+| Tremor            | /Lotus/Weapons/SolarisUnited/Primary/SUModularPrimarySet1/Handles/SUModularPrimaryHandleDPart      |
+| Ulnaris           | /Lotus/Weapons/Infested/Pistols/InfKitGun/Handles/InfSecondaryHandle/InfModularSecondaryHandlePart |
+| Vermisplicer      | /Lotus/Weapons/Infested/Pistols/InfKitGun/Barrels/InfBarrelBeam/InfModularBarrelBeamPart           |
+| Zip               | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularReloadIIClipPart       |
+| Zipfire           | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularStatIReloadIIClipPart  |
+| Zipneedle         | /Lotus/Weapons/SolarisUnited/Secondary/SUModularSecondarySet1/Clip/SUModularCritIReloadIIClipPart  |  
