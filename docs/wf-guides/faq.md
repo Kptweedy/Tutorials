@@ -10,7 +10,7 @@ Most models have been updated to:
 
 The Mega Archive linked all over the place and [Here](https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg).  
 If you are struggling to find a warframe use the search function.  
-![Mega Search](../assets/images/mega-search.png)  
+![Mega Search](../assets/images/mega-search.png){ width="65%" }  
 
 ### Q: The skin that I want to use is not in the archive  
 
@@ -30,20 +30,20 @@ If it is a skin or a warframe from some of the latest updates it might not be se
 ### Q: I opened *Warframe*(Pruu).blend and it looks terrible  
 
 For Example:  
-![No Detailtextures](../assets/images/detailtex.png)  
+![No Detailtextures](../assets/images/detailtex.png){ width="65%" }  
 This is because the DetailTextures atlas is not loaded.  
 
 To fix this you want to go to the mega and download the "(Required) DetailTextures (New).rar" file,  
 Extract it somwhere that you will remember, and then head back to blender.  
 
 Now we want to go and find missing textures.  
-![Find Missing](../assets/images/detailtextures.png)  
+![Find Missing](../assets/images/detailtextures.png){ width="50%" }  
 
 Now we want to go to the path we extracted the DetailTextures to and then we want to click find missing files.  
-![Find Folder](../assets/images/detailtextures-1.png)  
+![Find Folder](../assets/images/detailtextures-1.png){ width="65%" }  
 
 Now your warframe should look like this:  
-![Done!](../assets/images/detailtextures-2.png)  
+![Done!](../assets/images/detailtextures-2.png){ width="65%" }  
 
 
 ### Q: How do I change colours  
@@ -51,10 +51,10 @@ Now your warframe should look like this:
 To change the colours of your warframe you can either pick between the defaults for each frame or chose to use custom ones.  
 Default colours will be 0-9 or more and custom will be -1.  
 To find the custom property you need to select the armature and then open the properties panel.  
-![No Colours|center](../assets/images/colours.png)  
+![No Colours|center](../assets/images/colours.png){ width="65%" }  
 
 To change from defaults to custom change it to -1.  
-![Colours](../assets/images/colours-1.png)  
+![Colours](../assets/images/colours-1.png){ width="65%" }  
 
 ### 
 
@@ -75,17 +75,17 @@ For [Levels](models/level-setup.md)
 ### 
 
 ### How to add Asset Libraries 
-Asset Libraries are used to make the process of using level files a lot simpler and less space consuming.
+Asset Libraries are used to make the process of using level files a lot simpler and less space consuming.  
 To use the AL you want to download all of the ones you will need from the mega and put them in their own folder, then you want to add them in blender by following these steps.  
 
 1. you want to add a new asset library.  
-	![text](../assets/images/asset-lib-1.png)  
+	![text](../assets/images/asset-lib-1.png){ width="65%" }  
 
 2. You want to go to the folder that your Asset Libraries are stored in.  
-	![text](../assets/images/asset-lib-2.png)  
+	![text](../assets/images/asset-lib-2.png){ width="65%" }  
 
 3. You want to make sure that the import method is set to link.  
-	![text](../assets/images/asset-lib-3.png)
+	![text](../assets/images/asset-lib-3.png){ width="65%" }
 
 
 
