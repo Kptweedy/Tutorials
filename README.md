@@ -6,7 +6,7 @@ GitHub Pages made with Material for MkDocs
 To learn how to utilise  the markdown syntax reference this [markdown guide](https://www.markdownguide.org/basic-syntax)  
 To learn how to use github reference this [short video](https://www.youtube.com/watch?v=iv8rSLsi1xo) or if you would like to learn more reference this [long video](https://www.youtube.com/watch?v=tRZGeaHPoaw)  
 ### Running a development instance
-To host a locally hosted development site first make sure that you have the latest python installed and it is in your path.
+To start a locally hosted development site first make sure that you have the latest python installed and it is in your path.
  
  1. Clone the repository.  
 ```

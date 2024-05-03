@@ -55,7 +55,7 @@ theme:
       accent: deep orange
 
 repo_name: Puxtril/Warframe-Exporter
-repo_url: https://github.com/Puxtril/Warframe-Exporter
+repo_url: https://github.com/Puxtril/Warframe-Exporter/releases
 
 extra:
   social:
@@ -105,8 +105,10 @@ nav:
   - Home: 
     - index.md
     - Contributing: contributing.md
+    - Frequently Asked Questions: wf-guides/faq.md
   - Warframe Guides:
     - wf-guides/index.md
+    - Frequently Asked Questions: wf-guides/faq.md
     - Extractor:
       - wf-guides/extractor/index.md
       - Internal Name Index: wf-guides/extractor/file-list.md
@@ -120,8 +122,8 @@ nav:
       - Baking Textures: wf-guides/shaders/baking.md
     - Models:
       - wf-guides/models/index.md
-      - How to use Curated Models:  wf-guides/models/model-usage.md
       - How to set up Characters in Blender: wf-guides/models/character-setup.md
+      - How to set up Weapons in Blender: wf-guides/models/weapon-setup.md
       - How to set up Levels in Blender: wf-guides/models/level-setup.md
   - Curated Models and Resources: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
   - Warframe Model Resources Discord: https://discord.gg/Jk3xA2T

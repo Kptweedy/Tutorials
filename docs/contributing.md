@@ -54,12 +54,13 @@ mkdocs serve
 ### Stuff to do
 
 - [ ] Warframe Guides [Introduction](wf-guides/index.md)
+- [ ] [FAQ](wf-guides/faq.md)
 - [ ] [Extractor](wf-guides/extractor/index.md) Guide
 	* [x] [Internal Names](wf-guides/extractor/file-list.md) 
 	* [ ] [Tools](wf-guides/extractor/tools.md) 
 - [ ] Model [Introduction](wf-guides/models/index.md)
-	* [ ] Model [Usage](wf-guides/models/model-usage.md)
-	* [ ] Character [Setup](wf-guides/models/character-setup.md) 
+	* [ ] Character [Setup](wf-guides/models/character-setup.md)
+	* [ ] Weapon [Setup](wf-guides/models/weapon-setup.md)
 	* [ ] Level [Setup](wf-guides/models/level-setup.md)
 - [ ] Shader [Introduction](wf-guides/shaders/index.md)
 	* [ ] Pruu [Shader](wf-guides/shaders/pruu/index.md)
@@ -67,5 +68,7 @@ mkdocs serve
 	* [ ] [Baking Guide](wf-guides/shaders/baking.md)
 	* [ ] Valkyrie [Shader](wf-guides/shaders/valk-shader.md)
 - [ ] General Cleanup of files and pages 
+
+- [ ] Grammar, Punctuation and readability pass  
 
 - [ ] [Inspiration Gallery](inspiration-gallery/index.md)
