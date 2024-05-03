@@ -1,4 +1,24 @@
-# Using The Extractor
+# Using the Extractor 
+## Using the Extractor UI
+
+!!! info "Current Release State"
+	Currently the UI is in the alpha stages so there **will** be crashes.
+
+Starting from [v2.6-Alpha1](https://github.com/Puxtril/Warframe-Exporter/tree/v2.6-Alpha1) a gui created with qt has been added.  
+Download the latest tagged release from the [GitHub](https://github.com/Puxtril/Warframe-Exporter/releases) make sure you download the zip file, as this is the release that contains the UI.  
+Extract to a folder you will remember.  
+Run the Warframe-Exporter.exe and a window with options will pop up.  
+Pressing the ++question++ in the top right of this window will let you click on each section of the exporter and get tooltips on what to do with the options.  
+![Gui Options](../../assets/images/extractor-ui-options.png)  
+
+You can navigate the file tree using the mouse, or the arrow keys.  
+To export a file just click the export button, to export a directory click on that directory and then click on the export button.  
+![](../../assets/images/exporter-ui-metadata.png)  
+The UI also supports texture previews, material data preview and basic 3d model previews.  
+![](../../assets/images/exporter-ui-preview.png)  
+
+
+## Using The CLI Extractor
 ??? youtube "Video Explanation"  
 	<iframe width="752" height="423" src="https://www.youtube.com/embed/71fCaIE7J_4?si=8DUQ0K3U-Ds-8uUN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

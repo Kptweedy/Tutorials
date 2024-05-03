@@ -31,6 +31,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.prune
+    - navigation.footer
     - toc.follow
     - search.suggest
     - content.tabs.link
@@ -56,6 +57,7 @@ theme:
 
 repo_name: Puxtril/Warframe-Exporter
 repo_url: https://github.com/Puxtril/Warframe-Exporter/releases
+copyright: Not affiliated with Digital Extremes
 
 extra:
   social:
