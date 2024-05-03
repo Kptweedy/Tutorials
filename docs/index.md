@@ -2,7 +2,7 @@
 ![Icon](assets/icons/new-logo-better.svg){ align=right width="25%" }
 <br>
 
-## **This site is still very much incomplete!!!**  
+## **:construction_site: This site is still very much under construction!!! :construction:**  
 <br>
 
 ## Contributing  

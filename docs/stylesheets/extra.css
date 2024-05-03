@@ -19,16 +19,11 @@
   }
 
 @media only screen and (min-width: 76.25em) {
-  .md-main__inner {
+  .md-grid {
     max-width: 95%;
   }
-  .md-sidebar--primary {
-    left: 0;
+  .md-footer__inner {
+    max-height: 50%;
   }
-  .md-sidebar--secondary {
-    right: 0;
-    margin-left: 0;
-    -webkit-transform: none;
-    transform: none;   
-  }
+
 }

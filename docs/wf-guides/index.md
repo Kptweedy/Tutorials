@@ -10,10 +10,10 @@ Now we use the [Warframe-Exporter](https://github.com/Puxtril/Warframe-Exporter)
 
 ### Curated Models  
 If you are only here for the models that are set up already you can head to the  [MEGA](https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg) archive.  
-Details on how to use these models are on the [How to use Curated Models](models/model-usage.md) page.
+There are some details on how to use these models on the [FAQ](faq.md) page.
 
-### Model extraction and setip  
+### Model extraction and setup  
 If your model is not in the MEGA archive, you will need to use the Extractor to get the models.
 The [Extractor](extractor/index.md) page contains the information needed to get you started on finding and exporting the models.  
-The [Model Setup](models/character-setup.md) page contains the information on how to set up models that you have exported.  
-The [Shaders](shaders/index.md) page contains the information needed to get you started on learning how to set up shaders for the models.  
+The [Models](models/index.md) page contains the information on how to set up models that you have exported.  
+The [Shaders](shaders/index.md) page ~~contains~~ will contain the information needed to get you started on learning how to set up shaders for the models.  
