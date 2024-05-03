@@ -19,9 +19,11 @@
   }
 
 @media only screen and (min-width: 76.25em) {
-
   .md-grid {
-        max-width: 95%;
+    max-width: 95%;
+  }
+  .md-footer__inner {
+    max-height: 50%;
   }
 
 }

@@ -115,6 +115,11 @@ nav:
       - wf-guides/extractor/index.md
       - Internal Name Index: wf-guides/extractor/file-list.md
       - Useful Tools & Scripts: wf-guides/extractor/tools.md
+    - Models:
+      - wf-guides/models/index.md
+      - How to set up Characters in Blender: wf-guides/models/character-setup.md
+      - How to set up Weapons in Blender: wf-guides/models/weapon-setup.md
+      - How to set up Levels in Blender: wf-guides/models/level-setup.md
     - Shaders:
       - wf-guides/shaders/index.md
       - Pruu Shaders: 
@@ -122,11 +127,6 @@ nav:
         - Detail Names: wf-guides/shaders/pruu/details.md
       - Valkyrie Shaders: wf-guides/shaders/valk-shader.md
       - Baking Textures: wf-guides/shaders/baking.md
-    - Models:
-      - wf-guides/models/index.md
-      - How to set up Characters in Blender: wf-guides/models/character-setup.md
-      - How to set up Weapons in Blender: wf-guides/models/weapon-setup.md
-      - How to set up Levels in Blender: wf-guides/models/level-setup.md
   - Curated Models and Resources: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
   - Warframe Model Resources Discord: https://discord.gg/Jk3xA2T
   - Inspiration Gallery:
