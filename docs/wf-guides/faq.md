@@ -34,7 +34,7 @@ For Example:
 This is because the DetailTextures atlas is not loaded.  
 
 To fix this you want to go to the mega and download the "(Required) DetailTextures (New).rar" file,  
-Extract it somwhere that you will remember, and then head back to blender.  
+Extract it somewhere that you will remember, and then head back to blender.  
 
 Now we want to go and find missing textures.  
 ![Find Missing](../assets/images/detailtextures.png){ width="50%" }  
@@ -48,7 +48,7 @@ Now your warframe should look like this:
 
 ### Q: How do I change colours  
 
-To change the colours of your warframe you can either pick between the defaults for each frame or chose to use custom ones.  
+To change the colours of your warframe you can either pick between the defaults for each frame or choose to use custom ones.  
 Default colours will be 0-9 or more and custom will be -1.  
 To find the custom property you need to select the armature and then open the properties panel.  
 ![No Colours|center](../assets/images/colours.png){ width="65%" }  
