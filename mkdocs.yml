@@ -122,11 +122,11 @@ nav:
       - How to set up Levels in Blender: wf-guides/models/level-setup.md
     - Shaders:
       - wf-guides/shaders/index.md
+      - Baking Textures: wf-guides/shaders/baking.md
       - Pruu Shaders: 
         - wf-guides/shaders/pruu/index.md
         - Detail Names: wf-guides/shaders/pruu/details.md
       - Valkyrie Shaders: wf-guides/shaders/valk-shader.md
-      - Baking Textures: wf-guides/shaders/baking.md
   - Curated Models and Resources: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
   - Warframe Model Resources Discord: https://discord.gg/Jk3xA2T
   - Inspiration Gallery:
