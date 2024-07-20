@@ -62,7 +62,8 @@ To change from defaults to custom change it to -1.
 
 On some older models you will have to go into the shader to edit the colours yourself.  
 
-### 
+### Q: How do I bake textures  
+The [Baking Guide](shaders/baking.md) Has info on how to bake textures for the different shaders.  
 
 ### 
 
