@@ -1,6 +1,14 @@
 #  Internal Name Index  
 ## Display Names :octicons-arrow-right-24: Internal Names  
 
+!!! warning "<big><b>Skins & Accessories paths will not be correct! </b></big>"
+	These paths refer to `/Lotus/Upgrades/` and `/Lotus/Types/` which will not be the exact path to the model you are looking for.  
+
+!!! info "How to find your accessory"
+	 Searching the last part of the path of the accessory inside the `./../Characters/` directory should get you to the right file.  
+
+
+
 ### Warframes 
 Warframes are found inside the `/Lotus/Characters/Tenno/` directory.  
 

@@ -34,7 +34,7 @@ For Example:
 This is because the DetailTextures atlas is not loaded.  
 
 To fix this you want to go to the mega and download the "(Required) DetailTextures (New).rar" file,  
-Extract it somwhere that you will remember, and then head back to blender.  
+Extract it somewhere that you will remember, and then head back to blender.  
 
 Now we want to go and find missing textures.  
 ![Find Missing](../assets/images/detailtextures.png){ width="50%" }  
@@ -48,7 +48,11 @@ Now your warframe should look like this:
 
 ### Q: How do I change colours  
 
-To change the colours of your warframe you can either pick between the defaults for each frame or chose to use custom ones.  
+To change the colours of your warframe you can either pick between the defaults for each frame or choose to use custom ones.  
+
+On new Pruu ports there is a dropdown that allows you to pick the colour set you would like.  
+![Selectable Colour sets](../assets/images/pruu-colour-selection.png){ width="65%" }  
+
 Default colours will be 0-9 or more and custom will be -1.  
 To find the custom property you need to select the armature and then open the properties panel.  
 ![No Colours|center](../assets/images/colours.png){ width="65%" }  
@@ -56,13 +60,16 @@ To find the custom property you need to select the armature and then open the pr
 To change from defaults to custom change it to -1.  
 ![Colours](../assets/images/colours-1.png){ width="65%" }  
 
-### 
+On some older models you will have to go into the shader to edit the colours yourself.  
+
+### Q: How do I bake textures  
+The [Baking Guide](shaders/baking.md) Has info on how to bake textures for the different shaders.  
 
 ### 
 
-### Q: Is *Warframe* ripped?  
+### Q: Is *certain Warframe* ripped?  
 
-That depends, if you want the raw files, then yes most warframes are ripped and people will usually be happy to send you the raw files.  
+That depends, if you want the raw files, then yes most warframes are ripped/can be ripped and people will usually be happy to send you the raw files.  
 However if you mean *Set Up*, check the mega or the resource forum, if it is not there it is most probably not set up for blender.
 
 ### Q: How do I set up *Warframe*/*Weapon*/*Level*?  
