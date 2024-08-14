@@ -1,32 +1,32 @@
 # Using the Extractor 
-## Using the Extractor UI
-
-!!! info "Current Release State"
-	Currently the UI is in the alpha stages so there **will** be crashes.
-
-Starting from [v2.6-Alpha1](https://github.com/Puxtril/Warframe-Exporter/tree/v2.6-Alpha1) a GUI has been added.  
-
+## GUI Extractor 
 Download the latest tagged release from the [GitHub](https://github.com/Puxtril/Warframe-Exporter/releases) make sure you download the zip file, as this is the release that contains the UI.  
 Extract to a folder you will remember.  
 
-Run the Warframe-Exporter.exe and a window with options will pop up.  
+Run Warframe-Exporter.exe and the options window will pop up.   
 
-Pressing the ++question++ in the top right of this window will let you click on each section of the exporter and get tooltips on what to do with the options.  
-![Gui Options](../../assets/images/extractor-ui-options.png){ width="50%" }  
+![Gui Options](../../assets/images/extractor-ui-options.png){ width="85%" }  
+
+1. Pressing the ++question++ in the top right of this window will let you click on each section of the exporter and get tooltips on what to do with the options.  
+2. Inside the Warframe installation directory, there is a folder, "Cache.Windows" Typically Warframe is installed under C:\Steam\steamapps\common\Warframe\, if it is not search up how to find it on the internet.  
+3. This is the path that the Exporter will extract all the files to.  
+4. These options let you chose what kinds of files will be exported and shown in the file view.  
+5. This menu holds other miscellaneous options that some people may find useful, currently only filter by filetype selected (on by default).  
 
 You can navigate the file tree using the mouse, or the arrow keys.  
 To extract a file, select the file you want and then click the extract button, to extract a directory select that directory and then click on the export button.  
-![](../../assets/images/exporter-ui-metadata.png){ width="75%" }  
 
-The UI also supports texture, material data and basic 3d model previews.  
+The UI supports previewing  textures, material data and basic 3d model previews.  
 ![](../../assets/images/exporter-ui-preview.png){ width="75%" }  
 
+To extract a file you select the file in the file tree and press the extract button, this works the same with directories as with files. 
 
-## Using The CLI Extractor
+Finding the files you wish to extract may prove a hassle however you can use tools like [Omni.wf](https://wfdata.io/) or the [empx uniqueName manifest](https://api.empx.cc/warframe/manifest/uniqueName/) to search for an item, however these paths wont be the full correct path to the file.  
+For example, searching for "Sevagoth" on omni.wf gives us the path "/Lotus/Powersuits/Wraith/Wraith", to actually extract his files we will want to look in the "/Lotus/Characters/Tenno/" for a directory named "Wraith".  
+For more information on the internal paths you can check out the [Internal Paths](./internal-paths.md)
+## CLI Extractor
 ??? youtube "Video Explanation"  
 	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/71fCaIE7J_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Getting Started  
 
 ### Basic command line concepts  
 
@@ -41,11 +41,11 @@ The UI also supports texture, material data and basic 3d model previews.
 
 ### Downloading the Extractor  
 
-Firstly head over to the releases page for the [Extractor](https://github.com/Puxtril/Warframe-Exporter/releases/latest) on GitHub and download the file called `Warframe-Exporter.exe`.  
+Firstly head over to the releases page for the [Extractor](https://github.com/Puxtril/Warframe-Exporter/releases/latest) on GitHub and download the file called `Warframe-Exporter-CLI.exe`.  
 
-Secondly create a folder for the extractor as well as the files it will be extracting and then put  `Warframe-Exporter.exe` inside that folder.  
+Secondly create a folder for the extractor as well as the files it will be extracting and then put  `Warframe-Exporter-CLI.exe` inside that folder.  
 
-## Using the Extractor 
+### Using the Extractor 
 Now we want to navigate to that folder, you can either do it yourself in the terminal or follow this process to do it easily. 
 Inside the folder that you have the Extractor in, hold ++shift++ and then right click, this should bring up the context menu with the option to open in Powershell.  
 	- **Make Sure not to have anything selected when doing this.**  
@@ -54,7 +54,7 @@ Inside the folder that you have the Extractor in, hold ++shift++ and then right 
 Once you are in the terminal type `.\Warframe-Exporter.exe --version` to make sure that you are in the right directory and it works.  
 
 
-Next you need to find where your warframe cache is stored, this will be in the same folder that you installed warframe in.  
+Next you need to find where your Cache.Windows directory is stored, this will be in the Warframe root directory.  
 	- If you installed with steam click browse local files to find your installation.  
 		 ![Browse-Local](../../assets/images/browse-local.png)   
      
@@ -63,76 +63,9 @@ You then want to select the folder called `Cache.Windows` and click `Copy Path` 
 You want to paste this  somewhere you can easily access it, as it is needed for all of the commands in the extractor.     
 
 
-To get started take a look at the help page to get youself familiarised with all of the commands that can be run by using `.\Warframe-Exporter.exe --help`, open the dropdown below for what would get output on the extractor version 2.5.1.  
+To get started take a look at the help page to get yourself familiarised with all of the flags that can be used by using `.\Warframe-Exporter.exe --help`
 
-??? abstract "Terminal Output"  
-    ```powershell
-    > .\warframe-Exporter.exe --help
-
-    For an introduction into...
-     - How to use this tool
-     - Why it's necessary to use this instead of Ninjaripper
-     - How to handle the output of this program
-
-    Please review this guide
-    https://docs.google.com/document/d/1ZzQ71NH2dVp7S-1fMUmVTezXFAKWgFRf0RodDqS6rUg
-
-    ------------------------------------------------------------------------------
-    All options:
-
-       --internal-path <Internal Path>
-         Internal path base. Ex: /Lotus/Characters/Tenno/Excalibur
-
-       --package <Package name>
-         Warframe package. Ex: "Misc" or "Texture"
-
-       --cache-dir <Cache.Windows path>
-         (required) Cache directory. Ex: C:\Program
-         Files\Steam\steamapps\common\Warframe\Cache.Windows
-
-       --output-path <Output path>
-         Destination of extracted assets. Ex:
-         C:\Users\Puxtril\Downloads\Extracted (Default: Current directory)
-
-       --vertex-colors
-         Include extraction of Vertex Colors
-
-       One of:
-          --extract-textures
-            Extract all textures
-
-          --extract-models
-            Extract all 3D models
-
-          --extract-materials
-            Extract material metadata
-
-          --extract-levels
-            Extract all levels
-
-          --extract-audio
-            Extract audio clips
-
-          --extract-all
-            Extract all resources
-
-          --ls
-            List contents of directory
-
-       --,  --ignore_rest
-         Ignores the rest of the labeled arguments following this flag.
-
-       --version
-         Displays version information and exits.
-
-       -h,  --help
-         Displays usage information and exits.
-
-       https://github.com/Puxtril/Warframe-Exporter
-
-    ```
-
-### Creating your command  
+### Extracting Files  
 Now we want to put our command together and extract our models.  
 	For this example we will be extracting Excalibur.  
 
@@ -140,15 +73,15 @@ Now we want to put our command together and extract our models.
 .\Warframe-Exporter.exe --extract-models --package Misc --cache-dir 'C:\Program Files (x86)\Steam\steamapps\common\Warframe\Cache.Windows' --internal-path /Lotus/Characters/Tenno/Excalibur --output-path .\Excal  
 ```  
 
-- `.\Warframe-Exporter.exe` Is just the program.  
+- `.\Warframe-Exporter.exe` Runs the executable.  
 
 - `--extract-models` Tells the program to extract models.   
 
-- `--package Misc` Tells the program to extract from the Misc package, this package is the one that holds the materials and models. 
+- `--package Misc` Tells the program to extract from the Misc package, this package is the one that holds  materials and models. 
 
-- `--cache-dir` Should be followed by the path that we copied earlier.  
+- `--cache-dir` This is the Cache.Windows directory that we .  
 
-- `--internal-path` Tells the program which internal path to extract from, in our case this is the directory that all of the Excalibur files are stored in.  To get a grasp of the internal file structure I recommend looking at the [Directory Layout](./file-list.md) page, or using the `--ls` command to look through all of the directories.  
+- `--internal-path` Tells the program which internal path to extract from, in our case this is the directory that all of the Excalibur files are stored in.  To get a grasp of the internal file structure I recommend looking at the [Directory Layout](internal-paths.md) page, or using the `--ls` command to look through all of the directories.  
 
 - `--output-path` This is the path that the extractor will extract to, if this is left empty it will output the files to the same folder that the exporter is in under a folder called `Extracted`.  
 

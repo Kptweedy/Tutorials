@@ -115,8 +115,8 @@ nav:
     - wf-guides/index.md
     - Frequently Asked Questions: wf-guides/faq.md
     - Extractor:
-      - wf-guides/extractor/index.md
       - Internal Name Index: wf-guides/extractor/file-list.md
+      - Using The Extractor: wf-guides/extractor/extractor.md
       - Useful Tools & Scripts: wf-guides/extractor/tools.md
     - Models:
       - wf-guides/models/index.md
