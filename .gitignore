@@ -166,3 +166,4 @@ obsidian/
 *.psd
 old-assets/
 start.ps1
+.vscode/

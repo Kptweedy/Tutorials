@@ -42,6 +42,9 @@ theme:
     code: Roboto Mono
   language: en
   palette: 
+    # scheme: custom
+    # primary: custom
+
     - scheme: slate
       toggle:
         icon: material/weather-sunny
