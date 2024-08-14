@@ -42,6 +42,9 @@ theme:
     code: Roboto Mono
   language: en
   palette: 
+    # scheme: custom
+    # primary: custom
+
     - scheme: slate
       toggle:
         icon: material/weather-sunny
@@ -109,23 +112,21 @@ nav:
     - Contributing: contributing.md
     - Frequently Asked Questions: wf-guides/faq.md
   - Warframe Guides:
-    - wf-guides/index.md
+    - Precursory Information: wf-guides/intro.md
     - Frequently Asked Questions: wf-guides/faq.md
     - Extractor:
-      - wf-guides/extractor/index.md
-      - Internal Name Index: wf-guides/extractor/file-list.md
+      - Using The Extractor: wf-guides/extractor/extractor.md
+      - Internal Paths: wf-guides/extractor/internal-paths.md
       - Useful Tools & Scripts: wf-guides/extractor/tools.md
     - Models:
-      - wf-guides/models/index.md
       - How to set up Characters in Blender: wf-guides/models/character-setup.md
+      - How to set up Protoframes in Blender: wf-guides/models/human-char-setup.md
       - How to set up Weapons in Blender: wf-guides/models/weapon-setup.md
       - How to set up Levels in Blender: wf-guides/models/level-setup.md
     - Shaders:
-      - wf-guides/shaders/index.md
+      - Initial Shader Information: wf-guides/shaders/shaders.md
       - Baking Textures: wf-guides/shaders/baking.md
-      - Pruu Shaders: 
-        - wf-guides/shaders/pruu/index.md
-        - Detail Names: wf-guides/shaders/pruu/details.md
+      - Pruu Shaders: wf-guides/shaders/pruu.md
       - Valkyrie Shaders: wf-guides/shaders/valk-shader.md
   - Curated Models and Resources: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
   - Warframe Model Resources Discord: https://discord.gg/Jk3xA2T

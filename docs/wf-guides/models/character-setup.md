@@ -1,6 +1,6 @@
 # Setting up models
 To get started you will want to have a model, its textures and its material extracted in a directory you know.  
-For information on extracting read through the [extractor](../extractor/index.md) page.  
+For information on extracting read through the [extractor](../extractor/extractor.md) page.  
 ## Process  
 This process was done on the 4.0.2 build of blender, however it is recommended to always use the latest build.  
 This example will use Gauss Prime
@@ -60,12 +60,12 @@ To do this go back to Object mode and click Object :octicons-arrow-right-24: Sha
 ![](../../assets/images/shade-smooth.png)  
 
 #### Step 3. Shader
-For this step you need to make sure that you extracted the material .txts and textures of the model, as well as converted your .dds textures to another format. Details on how to do that as well as how to convert the textures are on the [extractor](../extractor/index.md) page.  
+For this step you need to make sure that you extracted the material .txts and textures of the model, as well as converted your .dds textures to another format. Details on how to do that as well as how to convert the textures are on the [extractor](../extractor/extractor.md) page.  
 
 - In this guide we are using the Pruu Shader.  
 
 ##### 3.1 Shader Generation  
-First we need to identify what shader generation the model uses, The process for doing so is detailed on the [shader](../shaders/index.md) page.  
+First we need to identify what shader generation the model uses, The process for doing so is detailed on the [shader](../shaders/shaders.md) page.  
 The shader gauss uses is G3.  
 ##### 3.2 Adding Shader  
 I already know that we need a G3 Shader so we will append the `H_Khora_Deluxe` material from the `G123 Split Shader.blend` 
@@ -137,8 +137,7 @@ First we want to add the colours, for this we copy the:
 `PS:EmissiveTintColorLo=` to the emission low colour.  
 `PS:EmissiveTintColorHi=` to the emission high colour.  
 
-Now we want to set the details up, for this we need to look at the name of each of the textures specified in the `TX:**PackMap=*` and `TX:**NormalMap=*` options.  
-Then we want to cross reference them with the numbers that correspond to the [Detail Names](../shaders/pruu/details.md).  
+Now we want to set the details up, for this we need to look at the name of each of the textures specified in the `TX:**PackMap=*` and `TX:**NormalMap=*` options.    
 `BlackPackMap`/`BlackNormalMap` corresponds to `Microdetail Primary`  
 `RedPackMap`/`RedNormalMap` corresponds to `Microdetail Secondary`  
 `GreenPackMap`/`GreenNormalMap` corresponds to `Microdetail Tertiary`  
