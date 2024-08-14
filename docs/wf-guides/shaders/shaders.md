@@ -10,3 +10,5 @@ Warframe has 3 different texture “Generations” you may encounter. Gen1 was u
 - Tint maps, AKA ID maps
 - sRGB/Linear color space
 - Image editors (Photoshop/GIMP/Paint.net)
+
+Determining the generation of a shader 

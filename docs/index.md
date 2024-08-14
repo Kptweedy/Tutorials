@@ -21,7 +21,7 @@ This website serves as a knowledge base of information and guides surrounding th
 
     Dive into our step-by-step Guides on how to export and set up Warframe models in Blender.
 
-    [:octicons-arrow-right-24: Warframe Guides](wf-guides/index.md)
+    [:octicons-arrow-right-24: Warframe Guides](wf-guides/intro.md)
 
 -   :simple-mega:{ .lg .middle } __Resources__
 
