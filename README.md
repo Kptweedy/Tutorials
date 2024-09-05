@@ -35,12 +35,13 @@ python -m pip install --upgrade pip
 
 5. Install mkdocs-material and the plugins it needs.  
 ```
-python -m pip install mkdocs-material
-pip install mkdocs-open-in-new-tab
-pip install mkdocs-glightbox
+python -m pip install mkdocs-material mkdocs-open-in-new-tab mkdocs-glightbox
 ```  
 
 6. Run the server and head to [http://localhost:8000](http://localhost:8000)
 ```
 mkdocs serve
 ```  
+
+7. Submit a Pull Request
+This can be done with [github desktop](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/creating-an-issue-or-pull-request-from-github-desktop) (or git if you know how to)
