@@ -120,7 +120,6 @@ nav:
       - Useful Tools & Scripts: wf-guides/extractor/tools.md
     - Models:
       - How to set up Characters in Blender: wf-guides/models/character-setup.md
-      - How to set up Protoframes in Blender: wf-guides/models/human-char-setup.md
       - How to set up Weapons in Blender: wf-guides/models/weapon-setup.md
       - How to set up Levels in Blender: wf-guides/models/level-setup.md
     - Shaders:
