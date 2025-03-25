@@ -41,22 +41,30 @@ theme:
     text: Open Sans
     code: Roboto Mono
   language: en
-  palette: 
+  palette:
     # scheme: custom
     # primary: custom
 
-    - scheme: slate
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/weather-hurricane
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      primary: pink
-      accent: deep orange
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: teal
       accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
 
 repo_name: Puxtril/Warframe-Exporter
 repo_url: https://github.com/Puxtril/Warframe-Exporter/releases
@@ -75,7 +83,7 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
-  
+
 markdown_extensions:
   - admonition
   - footnotes
@@ -89,7 +97,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.snippets
   - pymdownx.superfences
-  - pymdownx.tilde  
+  - pymdownx.tilde
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
@@ -99,7 +107,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.highlight:
       anchor_linenums: true
-      
+
 plugins:
   - search
   - open-in-new-tab
@@ -107,28 +115,28 @@ plugins:
 
 # Page tree
 nav:
-  - Home: 
-    - index.md
-    - Contributing: contributing.md
-    - Frequently Asked Questions: wf-guides/faq.md
+  - Home:
+      - index.md
+      - Contributing: contributing.md
+      - ❓FAQ: guides/faq.md
   - Warframe Guides:
-    - Precursory Information: wf-guides/intro.md
-    - Frequently Asked Questions: wf-guides/faq.md
-    - Extractor:
-      - Using The Extractor: wf-guides/extractor/extractor.md
-      - Internal Paths: wf-guides/extractor/internal-paths.md
-      - Useful Tools & Scripts: wf-guides/extractor/tools.md
-    - Models:
-      - How to set up Characters in Blender: wf-guides/models/character-setup.md
-      - How to set up Protoframes in Blender: wf-guides/models/human-char-setup.md
-      - How to set up Weapons in Blender: wf-guides/models/weapon-setup.md
-      - How to set up Levels in Blender: wf-guides/models/level-setup.md
-    - Shaders:
-      - Initial Shader Information: wf-guides/shaders/shaders.md
-      - Baking Textures: wf-guides/shaders/baking.md
-      - Pruu Shaders: wf-guides/shaders/pruu.md
-      - Valkyrie Shaders: wf-guides/shaders/valk-shader.md
-  - Curated Models and Resources: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
+      - Precursory Information: guides/intro.md
+      - ❓FAQ: guides/faq.md
+      - Extractor:
+          - Using The Extractor: guides/extractor/extractor.md
+          - Internal Paths: guides/extractor/internal.md
+          - Useful Tools & Scripts: guides/extractor/tools.md
+      - Models:
+          - How to set up Characters in Blender: guides/models/char-setup.md
+          - How to set up Characters in Blender(old): guides/models/character-setup.md
+          - How to set up Levels in Blender: guides/models/level-setup.md
+      - Shaders:
+          - Initial Shader Information: guides/shaders/shaders.md
+          - Baking Textures: guides/shaders/baking.md
+          - Pruu Shaders: guides/shaders/pruu.md
+          - Valkyrie Shaders: guides/shaders/valk-shader.md
   - Warframe Model Resources Discord: https://discord.gg/Jk3xA2T
-  - Inspiration Gallery:
-    - inspiration-gallery/index.md
+  - MEGA Archive: https://mega.nz/folder/fIUQDQYZ#vRNqurxNdzELIboK214Kxg
+  - Test Page: test/test-page.md
+  # - Inspiration Gallery:
+  #     - inspiration-gallery/index.md

@@ -4,6 +4,7 @@
 
 To learn how to write in markdown reference this [markdown guide](https://www.markdownguide.org/basic-syntax).  
 To learn how to use github reference this [short video](https://www.youtube.com/watch?v=iv8rSLsi1xo) or if you would like to learn more reference this [long video](https://www.youtube.com/watch?v=tRZGeaHPoaw).  
+If you need any help or want any questions answered mention @Krab (me) in the discord. 
 
 MkDocs-Material [Documentation](https://squidfunk.github.io/mkdocs-material/).  
 
@@ -40,9 +41,7 @@ python -m pip install --upgrade pip
 
 - Install mkdocs-material and the plugins it needs.  
 ```
-python -m pip install mkdocs-material
-pip install mkdocs-open-in-new-tab
-pip install mkdocs-glightbox
+python -m pip install mkdocs-material mkdocs-open-in-new-tab mkdocs-glightbox
 ```  
 
 - Run the server and head to [http://localhost:8000](http://localhost:8000)
@@ -50,24 +49,28 @@ pip install mkdocs-glightbox
 mkdocs serve
 ```  
 
+## Submitting a pull request
 
-### Stuff to do
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
 
-- [ ] Warframe Guides [Introduction](wf-guides/intro.md)
-- [ ] [FAQ](wf-guides/faq.md)
-- [ ] [Extractor](wf-guides/extractor/extractor.md) Guide
-	* [x] [Internal Names](wf-guides/extractor/internal-paths.md) 
-	* [ ] [Tools](wf-guides/extractor/tools.md) 
+### TODO
+
+- [ ] Warframe Guides [Introduction](guides/intro.md), make it worth reading.
+- [ ] [FAQ](guides/faq.md), redo faq to be better structured + record videos. 
+- [ ] [Extractor](guides/extractor/extractor.md), advanced cli info. 
+	* [ ] [Internal Names](guides/extractor/internal.md), add new frames since whenever the last update was
+	* [ ] [Tools](guides/extractor/tools.md), is this even useful?
 - [ ] Model Guides
-	* [ ] Character [Setup](wf-guides/models/character-setup.md)
-	* [ ] Weapon [Setup](wf-guides/models/weapon-setup.md)
-	* [ ] Level [Setup](wf-guides/models/level-setup.md)
-- [ ] Shader [Introduction](wf-guides/shaders/shaders.md)
-	* [ ] Pruu [Shader](wf-guides/shaders/pruu.md) guide
-	* [ ] [Baking Guide](wf-guides/shaders/baking.md)
-	* [ ] Valkyrie [Shader](wf-guides/shaders/valk-shader.md)
-- [ ] General Cleanup of files and pages 
+	* [ ] Character [Setup](guides/models/character-setup.md), finish making it informational and get rid of old guide. 
+	* [ ] Level [Setup](guides/models/level-setup.md), make simple al material setup guide at the bottom.
+- [ ] Shader [Introduction](guides/shaders/shaders.md), add information pretaning to shaders, maybe a guide for porting them to blender using impux. 
+	* [ ] Pruu [Shader](guides/shaders/pruu.md), make it readable and add guides on how to setup.
+	* [ ] [Baking Guide](guides/shaders/baking.md) record video and add more edge cases. 
+	* [ ] Valkyrie [Shader](guides/shaders/valk-shader.md) pester valk. 
+- [ ] General Clean-up of files and pages. 
 
-- [ ] Grammar, Punctuation and readability pass  
+- [ ] Grammar, Punctuation and readability pass. 
 
-- [ ] [Inspiration Gallery](inspiration-gallery/index.md)
+- [ ] [Inspiration Gallery](inspiration-gallery/index.md).
+
+- [ ] Finish custom theming.
