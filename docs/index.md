@@ -2,7 +2,7 @@
 ![Icon](assets/icons/new-logo-better.svg){ align=right width="25%" }
 <br>
 
-## **:construction_site: This site is still very much under construction!!! :construction:**  
+## Site is quite messy as it only occasionally gets updated
 <br>
 
 ## Contributing  
@@ -21,7 +21,7 @@ This website serves as a knowledge base of information and guides surrounding th
 
     Dive into our step-by-step Guides on how to export and set up Warframe models in Blender.
 
-    [:octicons-arrow-right-24: Warframe Guides](wf-guides/intro.md)
+    [:octicons-arrow-right-24: Warframe Guides](guides/intro.md)
 
 -   :simple-mega:{ .lg .middle } __Resources__
 
