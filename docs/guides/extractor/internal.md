@@ -11,75 +11,74 @@ For weapons its a similar process, but we search in `/Lotus/Weapons/` etc.
 ### Warframes 
 As browse.wf doesnt show model paths a table with what folders to look in for warframes has been put together.  
 
-| Display Name                                           | Internal Name  |
-|:------------------------------------------------------ |:-------------- |
-| Archwings                                              | JetPacks       |
-| Ash                                                    | Ninja          |
-| Atlas                                                  | Brawler        |
-| Banshee                                                | Decree         |
-| Baruuk                                                 | Pacifist       |
-| Caliban                                                | Caliban        |
-| Chroma                                                 | Dragon         |
-| Citrine                                                | Stalactis      |
-| Contains Attatchments, Ephemeras and Sayandanas        | Acsessory      |
-| Cyte-09                                                | Frumentarius   |
-| Dagath                                                 | Dagath         |
-| Dante                                                  | Pagemaster     |
-| Ember                                                  | Ember          |
-| Equinox                                                | Anima          |
-| Excalibur , Also includes Nyx, Nyx Prime, Nyx alt helm | Excalibur      |
-| Excalibur Proto Skins                                  | ProtoArmor     |
-| Friendly Dax, e.g. Varzia, Teshin                      | Outcast        |
-| Frost                                                  | Frost          |
-| Gara                                                   | Glass          |
-| Garuda                                                 | Garuda         |
-| Gauss                                                  | Sapient        |
-| Grendel                                                | Devourer       |
-| Gyre                                                   | Gyre           |
-| Harrow                                                 | Priest         |
-| Hildryn                                                | Shield         |
-| Hydroid                                                | Hydroid        |
-| Inaros                                                 | Mummy          |
-| Ivara                                                  | Archer         |
-| Jade                                                   | Choir          |
-| Khora                                                  | Quill          |
-| Koumei                                                 | Koumei         |
-| Kullervo                                               | PaxDuviricus   |
-| Lavos                                                  | Alchemist      |
-| Limbo                                                  | Magician       |
-| Loki                                                   | Loki           |
-| Lotus                                                  | Lotus          |
-| Mag                                                    | Mag            |
-| Mesa                                                   | Gunslinger     |
-| Mirage                                                 | Harlequin      |
-| Nekros                                                 | Necromancer    |
-| Nezha                                                  | Nezha          |
-| Nidus                                                  | Infestation    |
-| Nova                                                   | Antimatter     |
-| Nyx Deluxe + Tennogen Skins                            | Nyx            |
-| Nyx Nemesis Skin                                       | Nemesis        |
-| Oberon                                                 | Paladin        |
-| Octavia                                                | Bard           |
-| Protea                                                 | Odalisk        |
-| Quorvex                                                | Brutalist      |
-| Revenant                                               | Revenant       |
-| Rhino                                                  | Rhino          |
-| Saryn                                                  | Medusa         |
-| Sevagoth                                               | Wraithe        |
-| Some operator models and cosmetics                     | Operator       |
-| Stalker (Only Includes Head)                           | Assassin       |
-| Styanax                                                | Styanax        |
-| Temple                                                 | Temple         |
-| Titania                                                | Faerie         |
-| Trinity                                                | Trinity        |
-| Valkyr                                                 | Berserker      |
-| Various Rescue Targets                                 | Prisoner       |
-| Vauban                                                 | Engineer       |
-| Volt                                                   | Volt           |
-| Voruna                                                 | Lycath         |
-| Wisp                                                   | Wisp           |
-| Wukong                                                 | MonkeyKing     |
-| Xaku                                                   | BrokenWarframe |
-| Yareli                                                 | Yareli         |
-| Zephyr                                                 | Tengu          |
-
+| Internal Name  | Display Name                                           |
+| :------------- | :----------------------------------------------------- |
+| Accessory      | Contains Attatchments, Ephemeras and Syandanas         |
+| Alchemist      | Lavos                                                  |
+| Anima          | Equinox                                                |
+| Antimatter     | Nova                                                   |
+| Archer         | Ivara                                                  |
+| Assassin       | Stalker (Only Includes Head)                           |
+| Bard           | Octavia                                                |
+| Berserker      | Valkyr                                                 |
+| Brawler        | Atlas                                                  |
+| BrokenWarframe | Xaku                                                   |
+| Brutalist      | Quorvex                                                |
+| Caliban        | Caliban                                                |
+| Choir          | Jade                                                   |
+| Dagath         | Dagath                                                 |
+| Decree         | Banshee                                                |
+| Devourer       | Grendel                                                |
+| Dragon         | Chroma                                                 |
+| Ember          | Ember                                                  |
+| Engineer       | Vauban                                                 |
+| Excalibur      | Excalibur , Also includes Nyx, Nyx Prime, Nyx alt helm |
+| Faerie         | Titania                                                |
+| Frost          | Frost                                                  |
+| Frumentarius   | Cyte-09                                                |
+| Garuda         | Garuda                                                 |
+| Glass          | Gara                                                   |
+| Gunslinger     | Mesa                                                   |
+| Gyre           | Gyre                                                   |
+| Harlequin      | Mirage                                                 |
+| Hydroid        | Hydroid                                                |
+| Infestation    | Nidus                                                  |
+| JetPacks       | Archwings                                              |
+| Koumei         | Koumei                                                 |
+| Loki           | Loki                                                   |
+| Lotus          | Lotus                                                  |
+| Lycath         | Voruna                                                 |
+| Mag            | Mag                                                    |
+| Magician       | Limbo                                                  |
+| Medusa         | Saryn                                                  |
+| MonkeyKing     | Wukong                                                 |
+| Mummy          | Inaros                                                 |
+| Necromancer    | Nekros                                                 |
+| Nemesis        | Nyx Nemesis Skin                                       |
+| Nezha          | Nezha                                                  |
+| Ninja          | Ash                                                    |
+| Nyx            | Nyx Deluxe + Tennogen Skins                            |
+| Odalisk        | Protea                                                 |
+| Operator       | Some operator models and cosmetics                     |
+| Outcast        | Friendly Dax, e.g. Varzia, Teshin                      |
+| Pacifist       | Baruuk                                                 |
+| Pagemaster     | Dante                                                  |
+| Paladin        | Oberon                                                 |
+| PaxDuviricus   | Kullervo                                               |
+| Priest         | Harrow                                                 |
+| Prisoner       | Various Rescue Targets                                 |
+| ProtoArmor     | Excalibur Proto Skins                                  |
+| Quill          | Khora                                                  |
+| Revenant       | Revenant                                               |
+| Rhino          | Rhino                                                  |
+| Sapient        | Gauss                                                  |
+| Shield         | Hildryn                                                |
+| Stalactis      | Citrine                                                |
+| Styanax        | Styanax                                                |
+| Temple         | Temple                                                 |
+| Tengu          | Zephyr                                                 |
+| Trinity        | Trinity                                                |
+| Volt           | Volt                                                   |
+| Wisp           | Wisp                                                   |
+| Wraithe        | Sevagoth                                               |
+| Yareli         | Yareli                                                 |
