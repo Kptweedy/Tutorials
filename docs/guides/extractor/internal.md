@@ -13,7 +13,7 @@ As browse.wf doesnt show model paths a table with what folders to look in for wa
 
 | Internal Name  | Display Name                                           |
 | :------------- | :----------------------------------------------------- |
-| Acsessory      | Contains Attatchments, Ephemeras and Sayandanas        |
+| Accessory      | Contains Attatchments, Ephemeras and Syandanas         |
 | Alchemist      | Lavos                                                  |
 | Anima          | Equinox                                                |
 | Antimatter     | Nova                                                   |
@@ -25,6 +25,7 @@ As browse.wf doesnt show model paths a table with what folders to look in for wa
 | BrokenWarframe | Xaku                                                   |
 | Brutalist      | Quorvex                                                |
 | Caliban        | Caliban                                                |
+| Choir          | Jade                                                   |
 | Dagath         | Dagath                                                 |
 | Decree         | Banshee                                                |
 | Devourer       | Grendel                                                |
@@ -34,6 +35,7 @@ As browse.wf doesnt show model paths a table with what folders to look in for wa
 | Excalibur      | Excalibur , Also includes Nyx, Nyx Prime, Nyx alt helm |
 | Faerie         | Titania                                                |
 | Frost          | Frost                                                  |
+| Frumentarius   | Cyte-09                                                |
 | Garuda         | Garuda                                                 |
 | Glass          | Gara                                                   |
 | Gunslinger     | Mesa                                                   |
@@ -42,6 +44,7 @@ As browse.wf doesnt show model paths a table with what folders to look in for wa
 | Hydroid        | Hydroid                                                |
 | Infestation    | Nidus                                                  |
 | JetPacks       | Archwings                                              |
+| Koumei         | Koumei                                                 |
 | Loki           | Loki                                                   |
 | Lotus          | Lotus                                                  |
 | Lycath         | Voruna                                                 |
@@ -59,17 +62,20 @@ As browse.wf doesnt show model paths a table with what folders to look in for wa
 | Operator       | Some operator models and cosmetics                     |
 | Outcast        | Friendly Dax, e.g. Varzia, Teshin                      |
 | Pacifist       | Baruuk                                                 |
+| Pagemaster     | Dante                                                  |
 | Paladin        | Oberon                                                 |
 | PaxDuviricus   | Kullervo                                               |
 | Priest         | Harrow                                                 |
 | Prisoner       | Various Rescue Targets                                 |
 | ProtoArmor     | Excalibur Proto Skins                                  |
 | Quill          | Khora                                                  |
+| Revenant       | Revenant                                               |
 | Rhino          | Rhino                                                  |
 | Sapient        | Gauss                                                  |
 | Shield         | Hildryn                                                |
 | Stalactis      | Citrine                                                |
 | Styanax        | Styanax                                                |
+| Temple         | Temple                                                 |
 | Tengu          | Zephyr                                                 |
 | Trinity        | Trinity                                                |
 | Volt           | Volt                                                   |
