@@ -1,6 +1,9 @@
 # Using the Extractor 
+First things first, the extractor **Is Not** going to get you banned, it works by reading the files on your hard disk, not what is in memory like other programs may do. That being said however it will probably be a good idea not to run it at the same time as the game.  
+
+
 ## GUI Extractor 
-Download the latest tagged release from the [GitHub](https://github.com/Puxtril/Warframe-Exporter/releases) make sure you download the zip file, as this is the release that contains the UI.  
+Download the latest tagged release from the [GitHub](https://github.com/Puxtril/Warframe-Exporter/releases) make sure you download the zip file, as this is the release that contains the GUI.  
 Extract to a folder you will remember.  
 
 Run Warframe-Exporter.exe and the options window will pop up.   
